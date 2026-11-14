@@ -84,18 +84,19 @@
         <div class="brand"><span class="brand-mark">R</span><div><p>${esc(data.site.subtitle)}</p><h1>${esc(data.site.title)}</h1></div></div>
         <div class="season-stamp"><span>DATA SET</span><strong>${esc(data.site.season)}</strong><small>更新 ${esc(data.site.lastUpdated)}</small></div>
       </header>
-      <a class="patch-entry" href="${esc(patchUrl().href)}" data-patches>
-        <span><strong>シーズン11の調整一覧</strong><small>強化・弱体化・追加された効果をまとめて確認</small></span>
-        <span aria-hidden="true">→</span>
-      </a>
       <section class="directory" aria-labelledby="directory-title">
         <div class="section-heading">
           <h2 id="directory-title">キャラクター一覧</h2>
           <label class="search"><span aria-hidden="true">⌕</span><input id="hero-search" type="search" aria-label="キャラクターを検索" placeholder="キャラクターを検索" value="${esc(query)}"></label>
         </div>
-        <div class="role-tabs" role="group" aria-label="ロールで絞り込む">
-          <button class="role-tab" data-role="all" aria-pressed="${selectedRole === "all"}">すべて</button>
-          ${Object.entries(data.roles).map(([id, role]) => `<button class="role-tab ${role.color}" data-role="${id}" aria-pressed="${selectedRole === id}">${esc(role.label)}</button>`).join("")}
+        <div class="directory-controls">
+          <div class="role-tabs" role="group" aria-label="ロールで絞り込む">
+            <button class="role-tab" data-role="all" aria-pressed="${selectedRole === "all"}">すべて</button>
+            ${Object.entries(data.roles).map(([id, role]) => `<button class="role-tab ${role.color}" data-role="${id}" aria-pressed="${selectedRole === id}">${esc(role.label)}</button>`).join("")}
+          </div>
+          <a class="patch-entry" href="${esc(patchUrl().href)}" data-patches>
+            <span>シーズン11の調整一覧はこちら</span><span class="patch-entry-arrow" aria-hidden="true">→</span>
+          </a>
         </div>
         <div id="hero-groups">${heroCards()}</div>
         ${portraitSources.length ? `<p class="portrait-credit">画像出典（Marvel Rivals公式）

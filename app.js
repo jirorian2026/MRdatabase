@@ -2,7 +2,11 @@
   const data = window.MR_WIKI_DATA;
   let selectedRole = "all";
   let query = "";
-  let currentHeroId = new URLSearchParams(window.location.search).get("hero");
+  const routeFromLocation = () => {
+    const params = new URLSearchParams(window.location.search);
+    return { heroId: params.get("hero"), page: params.get("page") };
+  };
+  let currentRoute = routeFromLocation();
 
   const esc = (value = "") => String(value).replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[char]));
   const getHero = (id) => data.heroes.find((hero) => hero.id === id);
@@ -31,8 +35,14 @@
   const heroUrl = (id) => {
     const url = new URL(window.location.href);
     url.hash = "";
+    url.searchParams.delete("page");
     if (id) url.searchParams.set("hero", id);
     else url.searchParams.delete("hero");
+    return url;
+  };
+  const patchUrl = () => {
+    const url = heroUrl();
+    url.searchParams.set("page", "season-11");
     return url;
   };
 
@@ -74,6 +84,10 @@
         <div class="brand"><span class="brand-mark">R</span><div><p>${esc(data.site.subtitle)}</p><h1>${esc(data.site.title)}</h1></div></div>
         <div class="season-stamp"><span>DATA SET</span><strong>${esc(data.site.season)}</strong><small>更新 ${esc(data.site.lastUpdated)}</small></div>
       </header>
+      <a class="patch-entry" href="${esc(patchUrl().href)}" data-patches>
+        <span><strong>シーズン11の調整一覧</strong><small>強化・弱体化・追加された効果をまとめて確認</small></span>
+        <span aria-hidden="true">→</span>
+      </a>
       <section class="directory" aria-labelledby="directory-title">
         <div class="section-heading">
           <h2 id="directory-title">キャラクター一覧</h2>
@@ -174,15 +188,46 @@
     return [...skillGroups, ...teamupGroups].filter((group) => group.lines.length);
   };
 
+  const patchSummary = (groups) => `<dl class="patch-summary">
+    ${groups.map(({ label, key, lines }) => `<div><dt>${key ? `<kbd>${esc(key)}</kbd> ` : ""}${esc(label)}</dt>
+      <dd>${lines.map((line) => `<p>${skillLine(line)}</p>`).join("")}</dd></div>`).join("")}
+  </dl>`;
+
   const patchNotes = (groups) => groups.length ? `
     <section class="content-block notice-block" aria-labelledby="patch-title">
       <h3 id="patch-title">シーズン11の追加パッチ</h3>
       ${patchLegend()}
-      <dl class="patch-summary">
-        ${groups.map(({ label, key, lines }) => `<div><dt>${key ? `<kbd>${esc(key)}</kbd> ` : ""}${esc(label)}</dt>
-          <dd>${lines.map((line) => `<p>${skillLine(line)}</p>`).join("")}</dd></div>`).join("")}
-      </dl>
+      ${patchSummary(groups)}
     </section>` : "";
+
+  const patchDirectory = () => {
+    const changedHeroes = data.heroes.map((hero) => ({ hero, groups: patchGroups(hero) }))
+      .filter(({ groups }) => groups.length);
+    const sections = Object.entries(data.roles).map(([id, role]) => {
+      const entries = changedHeroes.filter(({ hero }) => hero.role === id)
+        .sort((left, right) => left.hero.name.localeCompare(right.hero.name, "ja"));
+      if (!entries.length) return "";
+      return `<section class="patch-role ${role.color}">
+        <h3>${esc(role.label)}</h3>
+        ${entries.map(({ hero, groups }) => `<article class="patch-hero">
+          <div class="patch-identity">
+            <a class="patch-portrait" href="${esc(heroUrl(hero.id).href)}" data-hero="${esc(hero.id)}" aria-label="${esc(hero.title)}のスキル表">
+              ${portraitMarkup(hero)}
+            </a>
+            <div><h4>${esc(hero.title)}</h4><a class="patch-profile-link" href="${esc(heroUrl(hero.id).href)}" data-hero="${esc(hero.id)}">スキル表を見る →</a></div>
+          </div>
+          <div class="notice-block patch-card-notes">${patchSummary(groups)}</div>
+        </article>`).join("")}
+      </section>`;
+    }).join("");
+    return `<main id="app" class="shell profile-shell">
+      <header class="masthead compact"><a class="brand back-home" href="${esc(heroUrl().href)}" data-home aria-label="キャラクター一覧へ戻る"><span class="brand-mark">R</span><div><p>${esc(data.site.subtitle)}</p><h1>${esc(data.site.title)}</h1></div></a><div class="season-stamp"><span>DATA SET</span><strong>${esc(data.site.season)}</strong><small>更新 ${esc(data.site.lastUpdated)}</small></div></header>
+      <nav class="breadcrumb" aria-label="現在のページ"><a href="${esc(heroUrl().href)}" data-home>← キャラクター一覧</a><span>/</span><strong>シーズン11の調整一覧</strong></nav>
+      <div class="patch-directory-heading"><h2 id="patch-directory-title">シーズン11の調整一覧</h2>${patchLegend()}</div>
+      ${sections || '<p class="empty">調整内容はまだ登録されていません。</p>'}
+      ${footer()}
+    </main>`;
+  };
 
   const teamupList = (teamups = []) => teamups.length ? `
     <section class="content-block">
@@ -252,8 +297,8 @@
   const footer = () => `<footer><span>${esc(data.site.disclaimer)}</span><span>© personal reference only</span></footer>`;
 
   const render = () => {
-    const hero = getHero(currentHeroId);
-    document.querySelector("#app").outerHTML = hero ? profile(hero) : home();
+    const hero = getHero(currentRoute.heroId);
+    document.querySelector("#app").outerHTML = hero ? profile(hero) : currentRoute.page === "season-11" ? patchDirectory() : home();
     bind();
   };
 
@@ -283,13 +328,13 @@
     const page = document.querySelector("#app");
     bindPortraits(page);
     page.addEventListener("click", (event) => {
-      const link = event.target.closest("a[data-hero], a[data-home]");
+      const link = event.target.closest("a[data-hero], a[data-home], a[data-patches]");
       if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
-      currentHeroId = link.dataset.hero || null;
       window.history.pushState({}, "", link.href);
+      currentRoute = routeFromLocation();
       render();
-      const heading = document.querySelector(".profile-title h2, #directory-title");
+      const heading = document.querySelector(".profile-title h2, #directory-title, #patch-directory-title");
       heading.tabIndex = -1;
       heading.focus({ preventScroll: true });
       window.scrollTo({ top: 0, behavior: "instant" });
@@ -315,6 +360,6 @@
       refreshCards();
     });
   };
-  window.addEventListener("popstate", () => { currentHeroId = new URLSearchParams(window.location.search).get("hero"); render(); });
+  window.addEventListener("popstate", () => { currentRoute = routeFromLocation(); render(); });
   render();
 })();

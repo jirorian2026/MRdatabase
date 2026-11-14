@@ -95,6 +95,10 @@ window.MR_WIKI_DATA = {
         { label: "ヒーリングファクター（パッシブ）CD", value: "45秒" },
         { label: "ULT CD", value: "60秒" }
       ],
+      testNotes: [
+        "88・102・127ダメージは、HP500のタンク・デッドプールを相手に検証。",
+        "137ダメージは、HP850のグルートを相手に検証。"
+      ],
       tests: [
         { condition: "HP 500のタンク・デッドプール", label: "剣・未強化", value: "88", detail: "左クリック3連（斬り→突き→払い）合計", sourceIds: ["user-training-1114"] },
         { condition: "HP 500のタンク・デッドプール", label: "剣・通常強化", value: "102", detail: "左クリック3連（斬り→突き→払い）合計", sourceIds: ["user-training-1114"] },

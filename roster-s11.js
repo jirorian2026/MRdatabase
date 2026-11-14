@@ -772,11 +772,11 @@
           "連携強化時　ボーナスHP 1回の使用につき10個",
           "連携強化時　シャドウサイス最大距離ブースト 2 m",
           {
-            "text": "基本効果　Gain a new ability to morph the All-Black into a scythe and execute a sweeping strike, damaging and briefly Grounding nearby enemies. The weapon stays in scythe form for a short duration.",
+            "text": "基本効果　オールブラックを大鎌に変形させ、全体攻撃を実行して近くの敵にダメージを与え、短時間接地させる新しい能力を獲得します。武器は短時間鎌の形のままになります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Hela, the scythe's attack range is expanded. Each hit scatters symbiote fragments, granting Bonus Health to Gorr and nearby allies",
+            "text": "連携強化時　ヘラと連携すると大鎌の攻撃範囲が拡大する。ヒットするたびにシンビオートの破片が飛散し、ゴールと近くの味方にボーナスHPを与えます",
             "detail": true
           }
         ],
@@ -795,11 +795,11 @@
           "連携強化時　黒のバーサーカーのダメージブースト 33%",
           "連携強化時　減速率 1秒間30%",
           {
-            "text": "基本効果　Gain a new ability to fire a Symbiote Claw forward, dealing piercing damage to enemies in its path. Upon reaching max distance, it retracts, Launching caught enemies toward Gorr.",
+            "text": "基本効果　シンビオートの爪を前方に発射し、その進路上の敵に貫通ダメージを与える新しい能力を獲得します。最大距離に達すると後退し、捕らえた敵をゴールに向かって発射します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Venom, Black Berserkers receive a slight Damage Boost and apply a Slow effect to enemies they strike",
+            "text": "連携強化時　ヴェノムとチームを組むと、ブラックバーサーカーはわずかなダメージブーストを受け、攻撃した敵にスロー効果を適用します。",
             "detail": true
           }
         ],
@@ -985,11 +985,11 @@
           "最大 40%",
           "連携強化時　一回限りのダメージ 60",
           {
-            "text": "基本効果　Gain a New Ability. Create an arcane zone that continuously damages enemies and applies stacking Damage and Healing Reduction. Reactivate to teleport to the zone's center.",
+            "text": "基本効果　新しい能力を獲得します。継続的に敵にダメージを与え、スタックダメージと治癒減少を適用する難解なゾーンを作成します。再度アクティブにすると、ゾーンの中心にテレポートします。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Scarlet Witch, after teleporting, unleash a magical shockwave, dealing one-time damage to nearby enemies while launching them towards The Hood",
+            "text": "連携強化時　スカーレット ウィッチとチームを組んだ場合、テレポート後に魔法の衝撃波を放ち、近くの敵に 1 回限りのダメージを与え、敵をフッドに向けて発射します。",
             "detail": true
           }
         ],
@@ -1015,11 +1015,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Enhances Abyssal Veil into a Lunar Barrier that blocks projectiles. Upon breaking, it detonates, damaging enemies and applying Damage and Healing Reduction. Enemies passing through take damage and are briefly Blinded.",
+            "text": "基本効果　アビサルベールを発射体をブロックする月の障壁に強化します。破壊すると爆発して敵にダメージを与え、ダメージと治癒減少を適用します。通過する敵はダメージを受け、短時間盲目になります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Moon Knight, the Lunar Barrier has greater shield value, and The Hood's attacks that pass through it gain a bounce effect",
+            "text": "連携強化時　ムーンナイトとチームを組むと、ルナーバリアのシールド値が増加し、それを通過したフッドの攻撃はバウンス効果を獲得します",
             "detail": true
           }
         ],
@@ -1230,11 +1230,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　When Attack Speed is enhanced, Energy Plasmoids transform into a hitscan attack that grants self-healing on hit and is capable of dealing critical hits.",
+            "text": "基本効果　攻撃速度が強化されると、エネルギー プラズモイドはヒット時に自己回復を与え、クリティカル ヒットを与えることができるヒットスキャン攻撃に変わります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with The Hood, the Void Magic Mark is never cleared, allowing her to indefinitely sustain the hitscan attack form.",
+            "text": "連携強化時　The Hood とチームを組むと、Void Magic Mark がクリアされることはなく、ヒットスキャン攻撃フォームを無期限に維持できるようになります。",
             "detail": true
           }
         ],
@@ -1263,11 +1263,11 @@
           },
           "連携強化時　継続回復 25/秒",
           {
-            "text": "基本効果　Deploy a Vampiric Field. Allies standing within the field gain Life Steal when attacking enemies.",
+            "text": "基本効果　ヴァンパイアフィールドを展開します。フィールド内に立っている味方は、敵を攻撃するとライフスティールを獲得します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Blade, allies inside the field receive an additional Continuous Healing effect.",
+            "text": "連携強化時　ブレードとチームを組むと、フィールド内の味方に追加の持続回復効果が与えられます。",
             "detail": true
           }
         ],
@@ -1747,11 +1747,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Taking damage accumulates Vibranium Energy. Upon reaching a specific threshold, Black Cat can unleash a violent explosion, damaging and Knocking back surrounding enemies while gaining a brief Speed Boost and Bonus Health.",
+            "text": "基本効果　ダメージを受けるとヴィブラニウム エネルギーが蓄積します。特定のしきい値に達すると、Black Cat は激しい爆発を起こし、周囲の敵にダメージを与えてノックバックし、短時間のスピードブーストとボーナスHPを獲得します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Black Panther, this explosion is no longer restricted by the energy threshold and can be triggered at any time.",
+            "text": "連携強化時　ブラックパンサーとチームを組むと、この爆発はエネルギー閾値による制限がなくなり、いつでも誘発できるようになります。",
             "detail": true
           }
         ],
@@ -1767,11 +1767,11 @@
           "マークトリガーにボーナスダメージ 45",
           "連携強化時　懲役期間 0.5秒",
           {
-            "text": "基本効果　Turn of Fortune is replaced by Spider-Web Grapple, which has 2 charges. Landing the grapple on an enemy steals Fortune and applies a Spider-Tracer. If Black Cat hits an enemy carrying a Spider-Tracer with any other ability, she triggers the mark to deal bonus damage.",
+            "text": "基本効果　Turn of Fortune は、2 回のチャージを持つ Spider-Web Grapple に置き換えられます。敵にグラップルを着地させるとフォーチュンが盗まれ、スパイダートレーサーが適用されます。 Black Cat が他の能力で Spider-Tracer を搭載した敵を攻撃すると、マークをトリガーしてボーナス ダメージを与えます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Spider-Man, using Spider-Web Grapple to hit an enemy already marked with a Spider-Tracer temporarily Immobilizes them in place.",
+            "text": "連携強化時　スパイダーマンとチームを組むとき、スパイダーウェブ グラップルを使用して、すでにスパイダー トレーサーでマークされている敵を攻撃すると、一時的に敵をその場で動けなくします。",
             "detail": true
           }
         ],
@@ -2097,7 +2097,11 @@
           "受動的エネルギーの回復 1",
           "連携強化時　持続時間 6秒",
           {
-            "text": "基本効果　White Fox receives an Orb of Life from Black Cat. Upon use, it recovers Spirit Tail energy and converts life energy into Nine-Tailed Aura that shoots out in all directions. This automatically tracks nearby allies and enemies, granting Speed and Healing to allies while damaging and Slowing enemies.\nnhanced Effect: When teaming up with Black Cat, using the Orb triggers a state where Spirit Tail Energy is no longer consumed for a duration, allowing free use of Spectral Surge and Fox Form Awakening.",
+            "text": "基本効果　白キツネは黒猫から命のオーブを受け取ります。使用すると霊尾エネルギーを回復し、生命エネルギーを四方八方に飛び出す九尾のオーラに変換する。これは近くの味方と敵を自動的に追跡し、敵にダメージを与えて速度を低下させながら、味方にスピードと回復を与えます。",
+            "detail": true
+          },
+          {
+            "text": "連携強化時　ブラックキャットとチームを組むと、オーブを使用すると一定時間精霊の尾エネルギーが消費されなくなる状態が発生し、スペクトラルサージとフォックスフォームの覚醒が自由に使用できるようになります。",
             "detail": true
           }
         ],
@@ -2114,11 +2118,11 @@
           "持続時間 12秒",
           "連携強化時　フォックスフォーム覚醒CD 12秒",
           {
-            "text": "基本効果　Activating Fox Form Awakening no longer consumes Spirit Tail energy, and grants the maximum possible duration immediately upon use.",
+            "text": "基本効果　Fox Form Awakening をアクティブ化しても Spirit Tail エネルギーを消費しなくなり、使用直後に最大持続時間が得られます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Psylocke, the cooldown for Fox Form Awakening is drastically reduced.",
+            "text": "連携強化時　サイロックとチームを組むと、フォックスフォーム覚醒のクールダウンが大幅に短縮されます。",
             "detail": true
           }
         ],
@@ -2415,11 +2419,11 @@
             ]
           },
           {
-            "text": "基本効果　After deploying the Smoky Snare trap, Diablo will monitor the area. If enemies approach, Diablo Immobilizes and Damages them. He also releases a lethal gas, causing continuous area damage.",
+            "text": "基本効果　スモーキー スネア トラップを展開した後、ディアブロはエリアを監視します。敵が近づくと、ディアブロは敵を動けなくしてダメージを与えます。また、致死性のガスを放出し、エリアに継続的なダメージを与えます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Devil Dinosaur and activating Prehistoric Trap, Smoky Snare no longer gains an additional ability charge; its cooldown is reduced from 15秒 to 12秒.",
+            "text": "連携強化時　Devil Dinosaur とチームを組んで先史時代の罠をアクティブ化するとき、Smoky Snare は追加のアビリティチャージを獲得しなくなります。クールダウンは 15 秒から 12 秒に短縮されます。",
             "detail": true
           }
         ],
@@ -2439,11 +2443,11 @@
           "遅い効果 2秒間25%",
           "連携強化時　ダメージによるエネルギー獲得倍率 0.0012",
           {
-            "text": "基本効果　Living Bullet changes to special rounds that Taunt targets with Deadpool's chatter, while Slowing, and damaging nearby enemies over time. After a timer, the bullet auto-recalls, healing Elsa based on the damage dealt while adding one extra gauge block to her Inherited Instinct passive cap.",
+            "text": "基本効果　リビングバレットは、デッドプールのおしゃべりでターゲットを挑発する特別な弾に変化し、速度を低下させ、時間の経過とともに近くの敵にダメージを与えます。タイマーが経過すると、弾丸が自動的にリコールされ、与えられたダメージに基づいてエルサを回復し、継承された本能のパッシブキャップに追加のゲージブロックを 1 つ追加します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Deadpool, Deadpool breaks the fourth wall, significantly boosting Instinct acquisition rate.",
+            "text": "連携強化時　デッドプールとチームを組むと、デッドプールが第 4 の壁を突破し、インスティンクトの獲得率が大幅に向上します。",
             "detail": true
           }
         ],
@@ -2717,11 +2721,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　After activation, every attack triggers a kinetic explosion, dealing area damage to surrounding enemies while simultaneously healing nearby allies.",
+            "text": "基本効果　発動後、すべての攻撃が動的爆発を引き起こし、周囲の敵に範囲ダメージを与え、同時に近くの味方を回復します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Gambit, Rogue remains permanently locked in the \"Hearts as One\" state.",
+            "text": "連携強化時　ギャンビットとチームを組むと、ローグは永久に「Hearts as One」状態にロックされたままになります。",
             "detail": true
           }
         ],
@@ -2737,11 +2741,11 @@
           "ダメージ軽減 75%",
           "連携強化時　壁衝突ボーナスダメージ 60",
           {
-            "text": "基本効果　Defensive Stance is fortified. Activating the ability expands a magnetic field, drastically boosting the Damage Reduction ratio of Defensive Stance. Furthermore, all damage absorbed by the field is converted directly into damage for Southern Brawl.",
+            "text": "基本効果　防御姿勢が強化される。アビリティを発動すると磁場が拡大し、ディフェンススタンスのダメージ軽減率が大幅に上昇する。さらに、フィールドによって吸収されたすべてのダメージは、Southern Brawl のダメージに直接変換されます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Magneto, Southern Brawl Knocks back enemies. Extra damage is dealt if they're propelled into a wall.",
+            "text": "連携強化時　マグニートーとチームを組むと、サザン ブロールで敵をノックバックします。壁に衝突すると追加ダメージが与えられます。",
             "detail": true
           }
         ],
@@ -3066,11 +3070,11 @@
           "連携強化時　一回限りのダメージ 40",
           "連携強化時　一度きりの癒し 60",
           {
-            "text": "基本効果　Throw two magnetic playing cards forward. Upon hitting the environment or a character, the two cards magnetically repel and unfurl, spinning in place for a duration. They heal allies they hit, while damaging and Launchingenemies.",
+            "text": "基本効果　磁気トランプ 2 枚を前方に投げます。環境またはキャラクターに当たると、2 枚のカードが磁気的に反発して広がり、一定時間その場で回転します。彼らは攻撃した味方を回復し、敵にダメージを与えて発射します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Magneto, after the duration ends, the magnetic poles of the two cards reverse. They violently slam back together and explode, providing an extra burst of healing to allies and damage to enemies.",
+            "text": "連携強化時　マグニートーと組んだ場合、効果時間終了後、2枚のカードの磁極が反転する。それらは激しくぶつかり合って爆発し、味方に追加の回復を与え、敵にダメージを与えます。",
             "detail": true
           }
         ],
@@ -3091,11 +3095,11 @@
           "連携強化時　ボーナスヒーリング 10/秒",
           "連携強化時　3秒間",
           {
-            "text": "基本効果　Twirl your firework-energy enhanced bo staff. The radiating firework sparks provide healing to nearby allies. Concurrently, the staff deals damage to close-range enemies, and the rapid spinning blocks incoming damage from most projectiles.",
+            "text": "基本効果　花火のエネルギーで強化された棒の杖を回転させます。放射される花火の火花は近くの味方に癒しを与えます。同時に、杖は近距離の敵にダメージを与え、高速回転がほとんどの発射体からのダメージをブロックします。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Jubilee, both Bayou Bashand Big Easy Impactgain an additional Continuous Healingaura.",
+            "text": "連携強化時　Jubilee とチームを組むと、両方のバイユー バシャンド ビッグ イージー インパクトが追加の連続ヒーリングガウラを獲得します。",
             "detail": true
           }
         ],
@@ -3348,11 +3352,11 @@
           },
           "連携強化時　回復量 60/秒",
           {
-            "text": "基本効果　Objection! is enhanced. Whirling billy clubs now damage all enemies in range while deflecting Projectiles from all directions. Successfully deflecting attacks recovers Fury.",
+            "text": "基本効果　異議あり!が強化されています。旋回ビリークラブは、あらゆる方向から発射物をそらしながら、範囲内のすべての敵にダメージを与えるようになりました。攻撃を回避することに成功するとフューリーが回復します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Iron Fist, Daredevil passively recovers Health for the entire duration of the ability.",
+            "text": "連携強化時　アイアン・フィストとチームを組むと、デアデビルは能力の持続時間全体にわたって受動的に体力を回復します。",
             "detail": true
           }
         ],
@@ -3374,11 +3378,11 @@
           "連携強化時　高さ5 m",
           "連携強化時　180°コーン効果範囲",
           {
-            "text": "基本効果　Swings Devil's Chain in a criss-cross pattern, dealing damage to enemies in front and inflicting a Slow.",
+            "text": "基本効果　デビルズチェーンを十字に振り、前方の敵にダメージを与え、スロー状態を与える。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Black Widow, the damage radius is expanded, and landing hits recovers Fury.",
+            "text": "連携強化時　ブラック・ウィドウとチームを組むと、ダメージ範囲が拡大し、着地ヒットでフューリーが回復します。",
             "detail": true
           }
         ],
@@ -3639,11 +3643,11 @@
           "グラウンドバインド持続時間 2秒",
           "連携強化時　ボーナスHP ターゲットの命中ごとに 75 のボーナス ヘルスを獲得 (最大 200)",
           {
-            "text": "基本効果　Activation grants Reveal within a targeted area. Activating the ability again performs a slam attack; enemies hit by the slam are Grounded.",
+            "text": "基本効果　アクティベーションにより、ターゲット領域内で Reveal が付与されます。能力を再度アクティブにすると、スラム攻撃が実行されます。叩きつけられた敵は地面に倒れます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Star-Lord, Angela gains Bonus Health scaling with the number of enemies struck by the slam.",
+            "text": "連携強化時　スターロードとチームを組むと、アンジェラはスラムで攻撃された敵の数に応じてボーナスHPを獲得します。",
             "detail": true
           }
         ],
@@ -3662,11 +3666,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Project an Illusion forward. The illusion utilizes Assassin's Charge to thrust at enemies. Enemies struck head-on will be carried through the air for a short while.",
+            "text": "基本効果　イリュージョンを前方に投影します。イリュージョンはアサシンのチャージを利用して敵を突き刺します。正面から攻撃された敵はしばらくの間空中に運ばれます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Loki, the ability gains two charges.",
+            "text": "連携強化時　ロキとチームを組むと、能力は 2 回チャージされます。",
             "detail": true
           }
         ],
@@ -3902,11 +3906,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Perform a heavy forward cleave with the Ancestral Sword while performing a short dash. At the end of the dash, swiftly slash four times, each strike sending a Darkmoon Blade forward. When a Darkmoon Blade hits an enemy, it bounces to nearby targets.",
+            "text": "基本効果　短いダッシュを実行しながら、Ancestral Sword で前方への重い切り裂きを実行します。ダッシュの終わりに、素早く 4 回斬り込み、各攻撃が前方に Darkmoon Blade を送ります。 Darkmoon Blade が敵に当たると、近くのターゲットに跳ね返ります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Moon Knight, each Whirlwind Slash triggered generates one additional Darkmoon Blade.",
+            "text": "連携強化時　Moon Knight とチームを組むと、旋風スラッシュがトリガーされるたびに追加の Darkmoon Blade が 1 つ生成されます。",
             "detail": true
           }
         ],
@@ -3925,11 +3929,11 @@
           "連携強化時　ヘルスパーセンテージのしきい値 65%",
           "連携強化時　獲得したボーナススタック 5",
           {
-            "text": "基本効果　For every set amount of damage taken, Blade builds a stack of Bloodline Awakening.",
+            "text": "基本効果　一定量のダメージを受けるたびに、ブレードは血統の覚醒のスタックを構築します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Captain America, taking critical damage instantly triggers the Bloodline Awakening state, gaining bonus stacks while raising the overall stack cap.",
+            "text": "連携強化時　キャプテン・アメリカとチームを組んだ場合、クリティカルなダメージを受けると即座に血統の覚醒状態がトリガーされ、全体的なスタック上限を上昇させながらボーナススタックを獲得します。",
             "detail": true
           }
         ],
@@ -4151,11 +4155,11 @@
           "治癒短縮期間 3秒",
           "連携強化時　ヒットごとに追加される残り火スタック 2",
           {
-            "text": "基本効果　Psionic Detonation is replaced by Phoenix Netherfire, applying a Telekinetic Mark to the targeted location. Upon hitting, it triggers an initial small explosion that briefly Stuns enemies, followed by two larger explosions that apply a Healing Reduction effect. Every single blast inflicts Sparks onto the enemies.",
+            "text": "基本効果　サイオニック デトネーションはフェニックス ネザーファイアに置き換えられ、ターゲットの場所にテレキネティック マークを適用します。命中すると、最初の小さな爆発が発生して敵を短時間気絶させ、続いて 2 回の大きな爆発で治癒減少効果を適用します。爆発のたびに敵に火花が降りかかります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Hela, every blast in the sequence applies multiple stacks of Sparks to enemies caught within.",
+            "text": "連携強化時　ヘラとチームを組むと、シーケンス内のすべての爆発により、中に捕らえられた敵に複数のスパークが適用されます。",
             "detail": true
           }
         ],
@@ -4178,11 +4182,11 @@
           "連携強化時　最大バウンス数 4",
           "連携強化時　自己回復量 65",
           {
-            "text": "基本効果　Fire a telekinetic shockwave forward. If it lands, the Phoenix Force rushes the enemy and delivers a powerful punch. If there are other targets nearby, the Phoenix Force rapidly blinks between them to strike them as well, inflicting Sparks on each victim while healing Phoenix.",
+            "text": "基本効果　前方に念動力の衝撃波を発射します。着地すればフェニックスフォースが敵に突進し、強力なパンチを繰り出す。近くに他のターゲットがある場合、フェニックス フォースはターゲットの間で素早く点滅して同様に攻撃し、フェニックスを治癒しながら各犠牲者にスパークを与えます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Rogue, the width of the telekinetic shockwave expands, and the Phoenix Force's target detection range is increased.",
+            "text": "連携強化時　ローグと連携すると念動力衝撃波の幅が広がり、フェニックスフォースの目標探知範囲が拡大する。",
             "detail": true
           }
         ],
@@ -4431,11 +4435,11 @@
           "連携強化時　ミサイル爆発のダメージ範囲 半径1.5 mの球面",
           "連携強化時　ミサイル爆発ダメージ 10",
           {
-            "text": "基本効果　Upgrade Encephalo-Ray to Nano-Ray, firing multiple damaging nano-projectiles forward.",
+            "text": "基本効果　Encephalo-Ray を Nano-Ray にアップグレードし、複数のダメージを与えるナノ発射体を前方に発射します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Iron Man, Imperative: Firewall fires powerful homing missiles at enemies in range, causing area damage.",
+            "text": "連携強化時　アイアンマンとチームを組むとき、必須: ファイアウォールは範囲内の敵に強力なホーミングミサイルを発射し、エリアにダメージを与えます。",
             "detail": true
           }
         ],
@@ -4453,11 +4457,11 @@
           "範囲内の他の味方への回復量 15/秒",
           "連携強化時　右クリックのクールダウン 12秒",
           {
-            "text": "基本効果　Apply Imperative: Patch to all allies.",
+            "text": "基本効果　命令: パッチをすべての味方に適用します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Peni Parker, Imperative: Firewall applies to all Drones, allowing the ability effects to be triggered multiple times simultaneously.",
+            "text": "連携強化時　ペニ・パーカーとチームを組む場合、必須: ファイアウォールがすべてのドローンに適用され、能力効果を同時に複数回トリガーできるようになります。",
             "detail": true
           }
         ],
@@ -4748,11 +4752,11 @@
           "連携強化時　マインドコントロールCD削減 2秒",
           "連携強化時　1回限りのボーナスHP 100",
           {
-            "text": "基本効果　Deals damage to the summoned Soul Crystal, which can be converted into Bonus Healthfor yourself.",
+            "text": "基本効果　召喚されたソウルクリスタルにダメージを与え、自分自身のボーナスHPに変換できます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When Emma Frost teams up with Mantis, shattering the Soul Crystalgrants a one-time Bonus Healthand reduces the cooldown of Mind Control.",
+            "text": "連携強化時　エマ・フロストがマンティスとチームを組むと、ソウル・クリスタルを粉砕すると、一度限りのボーナス・ヘルスが得られ、マインド・コントロールのクールダウンが短縮されます。",
             "detail": true
           }
         ],
@@ -4785,11 +4789,11 @@
           "連携強化時　テレパシーパルスのスロー効果を追加 エネルギーに応じて拡張",
           "連携強化時　エネルギー 100 で最大 10%",
           {
-            "text": "基本効果　Emma Frost releases winter energy forward, dealing damage and Slowto enemies. She can also enhance her diamond form, condensing frost in front of her to form Zero Diamondthat blocks enemy attacks and movement.",
+            "text": "基本効果　エマ フロストは冬のエネルギーを前方に放出し、敵にダメージを与え、スローにダメージを与えます。彼女はまた、ダイヤモンドの形を強化し、目の前の霜を凝縮して敵の攻撃と動きをブロックするゼロダイヤモンドを形成することもできます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When Emma Frost teams up with Luna Snow, after activating Diamond Form, all ability damage applies Slow, and Soul Wavealso applies Slow.",
+            "text": "連携強化時　エマ・フロストがルナ・スノウとチームを組むと、ダイヤモンドフォームを発動した後、すべてのアビリティダメージがスローに適用され、ソウルウェーブもスローに適用されます。",
             "detail": true
           }
         ],
@@ -4999,11 +5003,11 @@
           "連携強化時　気絶持続時間 1秒",
           "連携強化時　飛行速度 12 m/秒",
           {
-            "text": "基本効果　Enter an enhanced state upon activation. For the duration, The Thing's fists are violently engulfed in flames. Every Rocky Jab deals splash damage, and every Stone Haymaker creates an explosion, dealing damage in a frontal cone.",
+            "text": "基本効果　発動時に強化状態に入る。その間、ザ・シングの拳は激しく炎に包まれる。すべてのロッキー ジャブはスプラッシュ ダメージを与え、すべてのストーン ヘイメーカーは爆発を引き起こし、正面の円錐形にダメージを与えます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Human Torch, Human Torch can lift The Thing into the air and slam him down, dealing damage and Stun to enemies. The Thing then automatically enters his flaming enhanced state upon landing.",
+            "text": "連携強化時　ヒューマン トーチとチームを組むと、ヒューマン トーチはザ シングを空中に持ち上げて叩きつけ、敵にダメージと気絶を与えることができます。その後、シングは着地すると自動的に炎の強化状態に入ります。",
             "detail": true
           }
         ],
@@ -5032,11 +5036,11 @@
           "連携強化時　回復量 80",
           "連携強化時　治癒魔法のフィールド範囲 半径8 m",
           {
-            "text": "基本効果　Generate a layer of Psionic Armor upon activation, granting Bonus Health scaling off currently missing Health.",
+            "text": "基本効果　アクティブ化時にサイオニック アーマーの層を生成し、現在不足しているヘルスをスケールオフするボーナス ヘルスを付与します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up Invisible Woman, the Psionic Armor is fortified. While active, every time The Thing takes a set amount of damage, the armor pulses out a wave of area healing for allies. Furthermore, the conversion ratio for missing Health into Bonus Health is increased.",
+            "text": "連携強化時　インビジブルウーマンとチームを組むと、サイオニックアーマーが強化されます。アクティブの間、ザ・シングが一定量のダメージを受けるたびに、アーマーは味方に範囲回復の波を脈動させます。さらに、不足している体力をボーナスHPに変換する割合が増加します。",
             "detail": true
           }
         ],
@@ -5212,11 +5216,11 @@
           "火花ダメージ 1発あたり7個",
           "連携強化時　スパークによるボーナスHP増進 ラウンドごとに 4 個",
           {
-            "text": "基本効果　Passively detect enemies in the immediate vicinity and launch tracking Sparks to chip away their health.",
+            "text": "基本効果　すぐ近くにいる敵を受動的に検出し、追跡スパークを発射して敵の健康を削ります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Jubilee, successfully landing a Firework Spark on an enemy grants Human Torch Bonus Health.",
+            "text": "連携強化時　ジュビリーとチームを組んだ場合、敵に花火の火花を着地させることに成功すると、ヒューマン トーチ ボーナス ヘルスが付与されます。",
             "detail": true
           }
         ],
@@ -5244,11 +5248,11 @@
           "連携強化時　バーニングハリケーンの最大持続時間 11秒",
           "連携強化時　燃えるハリケーンの半径 10 m",
           {
-            "text": "基本効果　Unleash a storm-driven blaze of fire forward, generating a persistent Fire Vortex upon impact that continuously damages and pulls in enemies.",
+            "text": "基本効果　嵐によって前方に火の炎を放ち、衝撃を受けると永続的な火の渦を生成し、継続的にダメージを与えて敵を引き込みます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Storm, her Omega Hurricane ignites into a Burning Hurricane if it crosses a Flame Tornado. Furthermore, any Omega Hurricane, Jeff-Nado, or Flame Tornado that sweeps across a Flame Field left by Human Torch will instantly generate a new Flame Tornado.",
+            "text": "連携強化時　ストームとチームを組むと、彼女のオメガ ハリケーンがフレイム トルネードを横切るとバーニング ハリケーンに発火します。さらに、ヒューマン トーチが残したフレイム フィールドを席巻するオメガ ハリケーン、ジェフ ナド、またはフレイム トルネードは、即座に新しいフレイム トルネードを生成します。",
             "detail": true
           }
         ],
@@ -5452,11 +5456,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Equips the Fantastic Amplifier. For the duration, Mister Fantastic's maximum Elasticity is increased, and he can actively enter Inflation State.",
+            "text": "基本効果　ファンタスティックアンプを装備します。その間、ミスター・ファンタスティックの最大弾性が増加し、積極的にインフレーション状態に入ることができます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Rocket Raccoon, Brainiac Bounce Launches hit enemies.",
+            "text": "連携強化時　Rocket Raccoonとチームを組むと、Brainiac Bounce Launchesが敵にヒットします。",
             "detail": true
           }
         ],
@@ -5483,11 +5487,11 @@
           "連携強化時　ダメージによるボーナスHP変換率 0.75",
           "連携強化時　最大ボーナスHP 75",
           {
-            "text": "基本効果　In brawler stance, Stretch Punch becomes a charged ability, firing a forward Brawling Punch. Hitting an enemy grants Bonus Health scaling with damage, and a full charge Launches hit enemies.",
+            "text": "基本効果　ブロウラースタンスでは、ストレッチパンチがチャージ能力となり、前方にブロウリングパンチを発射します。敵を攻撃すると、ダメージに応じてボーナス ヘルスが得られ、フルチャージで攻撃を当てた敵を発射します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with The Thing, while in the brawling stance, Distended Grip also becomes a charged ability, slamming down a Distended Hammer. Hitting enemies grants Bonus Health based on damage, and Launches enemies at full charge.",
+            "text": "連携強化時　ザ・シングとチームを組むと、乱闘の姿勢中に、ディステンデッド・グリップもチャージ能力になり、ディステンデッド・ハンマーを叩きつけます。敵を攻撃するとダメージに基づいてボーナスHPが付与され、フルチャージで敵を打ち上げます。",
             "detail": true
           }
         ],
@@ -5744,11 +5748,11 @@
           "シールドの最大値 300",
           "連携強化時　シールドの最大値 400",
           {
-            "text": "基本効果　Generate a Flame Shield for a targeted ally that blocks incoming damage while providing a Continuous Healing aura to everyone nearby. Projectiles from teammates shot through the Flame Shield receive a Damage Boost. Enemies that pass though the shield are Slowed",
+            "text": "基本効果　ターゲットの味方に炎のシールドを生成し、受けるダメージをブロックし、近くにいる全員に継続的な治癒のオーラを提供します。チームメイトからの発射物がフレイムシールドを貫通して発射されると、ダメージブーストが与えられます。シールドを通過する敵は減速されます",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Human Torch, the Flame Shield boasts a larger radius and heavily increased shield value.",
+            "text": "連携強化時　ヒューマン トーチとチームを組むと、フレイム シールドの半径が大きくなり、シールド値が大幅に増加します。",
             "detail": true
           }
         ],
@@ -5768,11 +5772,11 @@
           "連携強化時　回復量 25/秒",
           "連携強化時　移動速度上昇 1.8 m/秒",
           {
-            "text": "基本効果　Invisible Woman and surrounding allies enter Invisible state, gaining healing and a Speed Boost. The effect ends if they take damage or the duration expires. Disengaging from combat for a duration will reenter the Invisible state.",
+            "text": "基本効果　インビジブルウーマンと周囲の味方がインビジブル状態になり、治癒とスピードブーストを獲得します。ダメージを受けるか持続時間が経過すると効果は終了する。一定期間戦闘から離れると、再びインビジブル状態になります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Mister Fantastic, the healing and Speed Boost effects are enhanced, and the Invisible state duration is increased",
+            "text": "連携強化時　ミスター・ファンタスティックとチームを組むと、回復とスピードブーストの効果が強化され、インビジブル状態の時間が延長されます",
             "detail": true
           }
         ],
@@ -6016,11 +6020,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Squirrel Girl gains the Squirrel Missile ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion.",
+            "text": "基本効果　リスガールはリスミサイル能力を獲得します。彼女はリスに、ホーミングミサイルとしてアイアンマンのナノテクグローブに乗るように指示した。攻撃が当たると、リスは激しい爆発の直前に逃げます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Iron Man, using Squirrel Blockade simultaneously fires a Squirrel Missile.",
+            "text": "連携強化時　アイアンマンとチームを組んだ場合、リス封鎖を使用するとリスミサイルが同時に発射されます。",
             "detail": true
           }
         ],
@@ -6046,11 +6050,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Spider-Man gives Squirrel Girl a web bomb. She can launch it to unleash an explosion upon contact with the environment or an enemy, briefly Slowing and damaging enemies caught in the blast.",
+            "text": "基本効果　スパイダーマンはリスガールにウェブ爆弾を与えます。彼女はそれを発射して環境や敵と接触すると爆発を引き起こし、爆発に巻き込まれた敵を一時的に減速させてダメージを与えることができます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Spider-Man, Squirrel Girl receives more Web Fluid. After throwing Webbed Acorn, viscous web fluid coats the ground alongside the explosion, leaving behind a sticky Web Area. Enemies within suffer a continuous Slow that scales into a Stun if they linger too long.",
+            "text": "連携強化時　スパイダーマンとチームを組むと、リスガールはより多くのウェブ流体を受け取ります。水かきのあるドングリを投げた後、粘性のあるクモの巣の液体が爆発とともに地面を覆い、粘着性のあるクモの巣エリアを残します。内部の敵は継続的なスロー状態に陥り、長く留まりすぎるとスタンに変化します。",
             "detail": true
           }
         ],
@@ -6254,11 +6258,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Landing hits with Red Room Rifle builds Focus. At three stacks, enter a Focused state where the next bullet gains the Hunter's Sight effect, granting Damage Boost and pierce effects. Black Widow gains Bonus Health equal to 50% of the damage dealt by a Focused bullet, up to 75.",
+            "text": "基本効果　レッド ルーム ライフルでヒットを当てるとフォーカスが構築されます。 3 スタックで、集中状態になり、次の弾丸がハンターの視力効果を獲得し、ダメージブーストと貫通効果を与えます。ブラック・ウィドウは、集中弾丸によって与えられるダメージの 50% に等しいボーナスHP (最大 75) を獲得します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Hawkeye, landing a critical hit prevents the Focused state from expiring, allowing continuous enhanced fire until missing a crit.",
+            "text": "連携強化時　ホークアイとチームを組む場合、クリティカル・ヒットを当てると集中状態が期限切れになるのを防ぎ、クリティカルを逃すまで継続的な強化射撃が可能になります。",
             "detail": true
           }
         ],
@@ -6290,11 +6294,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Activation grants the Red Room Rifle a Fire Rate Boost. Additionally, the Plasma Cannon projectile becomes a hitscan laser that no longer requires charging.",
+            "text": "基本効果　アクティベーションにより、レッド ルーム ライフルに発射速度ブーストが付与されます。さらに、プラズマキャノン発射体は充電を必要としないヒットスキャンレーザーになります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Phoenix, her Plasma Cannon gains a second ability charge.",
+            "text": "連携強化時　フェニックスとチームを組むと、彼女のプラズマキャノンは 2 回目の能力チャージを獲得します。",
             "detail": true
           }
         ],
@@ -6489,11 +6493,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Activation extends the attack range of Savage Claw and Berserk Claw Strike. Vicious Rampage is replaced with Kinetic Claws, granting a brief forward lunge that unleashes a flurry of slashes around.",
+            "text": "基本効果　発動によりサベージクローとバーサーククローストライクの攻撃範囲が拡大します。 Vicious Rampage は Kinetic Claws に置き換えられ、周囲に一連の斬撃を放つ短い前方突進を可能にします。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Cyclops, Blast Slash is permanently active.",
+            "text": "連携強化時　サイクロプスとチームを組むと、ブラストスラッシュが永続的にアクティブになります。",
             "detail": true
           }
         ],
@@ -6513,11 +6517,11 @@
           "ボーナスダメージ 15%",
           "連携強化時　回復量 25/秒",
           {
-            "text": "基本効果　Upon activation, Wolverine receives Kinetic Enhancement, gaining increased Movement Speed and a Jump Boost. Attacking enemies applies Kinetic Particles that detonate after a short delay for bonus damage. The effect lasts for duration.",
+            "text": "基本効果　アクティブ化すると、ウルヴァリンはキネティック強化を受け、移動速度の増加とジャンプブーストを獲得します。敵を攻撃すると、少し遅れて爆発するキネティック パーティクルが適用され、ボーナス ダメージが与えられます。効果は一定期間持続します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Gambit, Wolverine receives Continuous Healing for the entire duration of the ability.",
+            "text": "連携強化時　ギャンビットとチームを組むと、ウルヴァリンは能力の持続時間全体にわたって継続的な回復を受けます。",
             "detail": true
           }
         ],
@@ -6896,11 +6900,11 @@
           "連携強化時　ベール範囲 幅8メートル",
           "連携強化時　高さ6メートル",
           {
-            "text": "基本効果　Veil of Lightforce and Terror Cape are warped by hellfire energy, changing into Veil of Light and Veil of Darkness while retaining their original effects. Both veils knock back enemies hit along their path. After traveling a set distance, the veils halt in place. Enemy damage passing through the Veil of Light is weakened, while enemy healing passing through the Veil of Darkness suffers Healing Reduction.",
+            "text": "基本効果　光の力のベールとテ​​ラーケープは業火のエネルギーによって歪められ、元の効果を維持したまま光のベールと闇のベールに変化します。どちらのベールも、進路上で攻撃を受けた敵をノックバックします。一定の距離を移動すると、ベールはその場で停止します。光のベールを通過する敵のダメージは弱くなり、闇のベールを通過する敵の回復は治癒減少を受けます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with The Hood, the width of both the Veil of Light and Veil of Darkness expands. Additionally, allies passing through the veils are empowered by hellfire energy, gaining Damage Boost for a duration.",
+            "text": "連携強化時　ザ・フッドと連携すると、光のベールと闇のベールの幅が拡大します。さらに、ベールを通過する味方は業火のエネルギーによって力を与えられ、一定期間ダメージブーストを獲得します。",
             "detail": true
           }
         ],
@@ -6918,11 +6922,11 @@
           "回復量 50/秒",
           "連携強化時　回復量 90/秒",
           {
-            "text": "基本効果　Channel frost energy outward to encase yourself in an absolute block of ice. This offers great protection, but Freezes you in place. While frozen, you can be healed and emit a weak healing aura to nearby allies.",
+            "text": "基本効果　霜のエネルギーを外側に向けて、完全な氷のブロックに身を包みます。これは優れた保護を提供しますが、その場で動けなくなります。凍結している間、あなたは治癒され、近くの味方に弱い治癒オーラを放出することができます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Luna Snow, the healing aura provided to allies while Frozen becomes significantly stronger.",
+            "text": "連携強化時　ルナスノウとチームを組むと、アナと雪の女王中に味方に与えるヒーリングオーラが大幅に強化されます。",
             "detail": true
           }
         ],
@@ -7112,11 +7116,11 @@
           "連携強化時　ダメージ距離 5 m",
           "連携強化時　ダメージ 50",
           {
-            "text": "基本効果　Unleash a powerful uppercut to Launch Up enemies.",
+            "text": "基本効果　強力なアッパーカットを放ち、敵を打ち上げます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up The Thing, unleashing the uppercut can be chained directly into a sweeping leg sweep for a follow-up attack.",
+            "text": "連携強化時　ザ・シングとチームを組むと、アッパーカットを放ち、追撃のためのスイープレッグスイープに直接連鎖させることができます。",
             "detail": true
           }
         ],
@@ -7135,11 +7139,11 @@
           "連携強化時　ターゲット選択の最大範囲の増加 2 m",
           "連携強化時　回復量 7.5",
           {
-            "text": "基本効果　Hitting an enemy with Yat Jee Chung Kuen provides a burst of healing to nearby allies.",
+            "text": "基本効果　Yat Jee Chung Kuen で敵を攻撃すると、近くの味方に大量の回復を与えます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up White Fox, the lock-on distance for Yat Jee Chung Kuen is significantly increased.",
+            "text": "連携強化時　ホワイトフォックスと組んだ場合、ヤット・ジー・チュンクエンのロックオン距離が大幅に増加する。",
             "detail": true
           }
         ],
@@ -7344,11 +7348,11 @@
           "連携強化時　サイオニックアローの爆発ダメージ 1発あたり8ダメージ",
           "連携強化時　爆発範囲 半径2 mの球状魔法フィールド",
           {
-            "text": "基本効果　Upgrade Blast Arrow to Psionic Arrow. While drawn, Hawkeye can continuously bank extra Psionic Arrows. Releasing the bowstring rapidly fires all accumulated arrows forward in sequence.",
+            "text": "基本効果　ブラストアローをサイオニックアローにアップグレードします。ホークアイは引いている間、追加のサイオニックアローを継続的にバンクできます。弓の弦を放すと、蓄積されたすべての矢が順番に前方に急速に発射されます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Psylocke, the nocking speed for each Psionic Arrow is significantly quickened, and they explode upon hitting enemies or the environment.",
+            "text": "連携強化時　サイロックとチームを組むと、各サイオニックアローのノッキング速度が大幅に速くなり、敵や環境に当たると爆発します。",
             "detail": true
           }
         ],
@@ -7372,11 +7376,11 @@
           "連携強化時　合計 3 ショット",
           "連携強化時　治癒上昇率 4秒間15%",
           {
-            "text": "基本効果　Upgrade Crescent Slash to Moonlit Slash, projecting a radiant slash outward. It heals and boosts healing for allies, while damaging enemies and applying Vulnerability.",
+            "text": "基本効果　三日月斬りを月光斬りにアップグレードし、外側に光り輝く斬撃を放つ。敵にダメージを与えて脆弱性を適用しながら、味方の回復と回復力を高めます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Cloak & Dagger, Moonlit Slash can be chained into a three-hit combo, firing off three consecutive sweeping light blades.",
+            "text": "連携強化時　Cloak & Dagger とチームを組むと、Moonlit Slash を 3 回のヒット コンボにつなげることができ、3 回連続でスイープする光の刃を発射します。",
             "detail": true
           }
         ],
@@ -7553,11 +7557,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Create an illusory projection that automatically dashes forward to use Psi-Blade Dash, while Psylocke enters Stealth. If Psylocke attacks, the illusion mimics her strikes.",
+            "text": "基本効果　サイロックがステルス状態になる間に、サイブレード ダッシュを使用するために自動的に前方にダッシュする幻想的な投影を作成します。サイロックが攻撃すると、イリュージョンが彼女の攻撃を模倣します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Emma Frost, Psylocke's mental powers are elevated, allowing her to reactivate the ability to instantly swap places with her illusion.",
+            "text": "連携強化時　エマ・フロストとチームを組むと、サイロックの精神力が高まり、彼女の幻想と瞬時に場所を交換する能力を再活性化できるようになります。",
             "detail": true
           }
         ],
@@ -7577,11 +7581,11 @@
           "サイオニッククロスボウのショットごとの基本ダメージ 13",
           "連携強化時　フィールド範囲 半径8 mの球面",
           {
-            "text": "基本効果　Unleash a ring of Light Darts in all directions that damage enemies and restore Psylocke's Health upon impact, leaving behind a Shadow Domain. Staying inside the domain for a short time will re-enter Stealth.",
+            "text": "基本効果　ライトダーツのリングを全方向に放ち、敵にダメージを与え、衝撃時にサイロックの体力を回復し、シャドウ ドメインを残します。ドメイン内に短時間滞在すると、ステルス状態に戻ります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Cloak & Dagger, the radius of the Shadow Domain expands, and each time re-entering Stealth, the Light Darts are fired in all directions again.",
+            "text": "連携強化時　Cloak & Dagger とチームを組むと、Shadow Domain の半径が拡大し、再びステルス状態に入るたびに、Light Darts が再び全方向に発射されます。",
             "detail": true
           }
         ],
@@ -7979,11 +7983,11 @@
           "連携強化時　着地ダメージ 50",
           "連携強化時　脆弱性率 3秒間20%",
           {
-            "text": "基本効果　Leap high and smash the ground, dealing damage to enemies and reducing the cooldowns of other abilities based on remaining Health.",
+            "text": "基本効果　高く跳んで地面を叩きつけ、敵にダメージを与え、残りの体力に基づいて他の能力のクールダウンを短縮します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Captain America, the ground slam additionally applies Vulnerability to enemies hit.",
+            "text": "連携強化時　キャプテン・アメリカとチームを組むと、グラウンドスラムはさらに攻撃を受けた敵に脆弱性を適用します。",
             "detail": true
           }
         ],
@@ -8003,11 +8007,11 @@
           "止められない持続時間 6秒",
           "アンストッパブルCD 45秒",
           {
-            "text": "基本効果　Enter a Furious state upon activation, gaining Speed Boost and Attack Speed for a duration. Also unlocks the Dances With Werewolves ability, granting Unstoppable for a period when Health drops to a certain threshold.",
+            "text": "基本効果　アクティブ化すると激怒状態になり、一定期間速度ブーストと攻撃速度が向上します。また、Dances With Werewolves 能力のロックを解除し、体力が特定のしきい値まで低下すると、一定期間アンストッパブルを付与します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Wolverine, unlocks the Fastball Special. Upon mutual confirmation, Hulk hurls Wolverine forward",
+            "text": "連携強化時　ウルヴァリンとチームを組むと、速球スペシャルのロックが解除されます。相互確認の上、ハルクはウルヴァリンを前方に投げつける",
             "detail": true
           }
         ],
@@ -8314,11 +8318,11 @@
           "連携強化時　ガンマシールドの最大持続時間 2秒",
           "連携強化時　散逸ダメージ 45",
           {
-            "text": "基本効果　Upgrade Armor Overdrive to Gamma Overdrive. In this state, Iron Man gains a Gamma Shield and can fire significantly stronger Repulsor Blasts and Unibeams.",
+            "text": "基本効果　アーマー オーバードライブをガンマ オーバードライブにアップグレードします。この状態では、アイアンマンはガンマ シールドを獲得し、非常に強力なリパルサー ブラストとユニビームを発射できるようになります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Hulk, releasing Invincible Invincible Pulse Cannon generates a Gamma Shield and heavily infuses the blast, creating a Gamma Pulse Cannon. Its radiation creates a massive damage increase while the projectile flies",
+            "text": "連携強化時　ハルクとチームを組んだ場合、無敵の無敵パルス キャノンを解放すると、ガンマ シールドが生成され、爆風が大量に注入されてガンマ パルス キャノンが作成されます。発射体が飛行する間、その放射によりダメージが大幅に増加します",
             "detail": true
           }
         ],
@@ -8343,11 +8347,11 @@
           "1秒あたり10回",
           "連携強化時　サンダー オーバードライブ CD リダクション 5秒",
           {
-            "text": "基本効果　Enhance Unibeam both in and out of Armor Overdrive. When fired, a ring of volatile lightning energy forms, dealing bonus damage to enemies caught near the beam's edge.",
+            "text": "基本効果　アーマーオーバードライブの内外の両方でユニビームを強化します。発射すると、揮発性の雷エネルギーのリングが形成され、ビームの端近くに捕らえられた敵にボーナス ダメージを与えます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Thor, Armor Overdrive cooldown is massively reduced.",
+            "text": "連携強化時　トールとチームを組むと、アーマー オーバードライブのクールダウンが大幅に短縮されます。",
             "detail": true
           }
         ],
@@ -8575,11 +8579,11 @@
           "連携強化時　3秒間20ヘルス/秒の治癒効果を得る",
           "連携強化時　治癒範囲 半径8 m",
           {
-            "text": "基本効果　Enter Phased state and dash forward. Upon concluding, emit a Light Energy Healing Wave that heals Moon Knight and nearby allies.",
+            "text": "基本効果　フェーズ状態に入り、前方にダッシュします。終了すると、ムーンナイトと近くの味方を回復する光エネルギー治癒波を放射します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Cloak & Dagger, the Phased state duration is extended, the dash distance increases, and the Light Energy Healing Wave boasts a larger radius and stronger healing output.",
+            "text": "連携強化時　クローク＆ダガーとチームを組むと、フェーズ状態の持続時間が延長され、ダッシュ距離が増加し、光エネルギー治癒波の半径が大きくなり、より強力な治癒出力を誇ります。",
             "detail": true
           }
         ],
@@ -8600,11 +8604,11 @@
           "連携強化時　ダメージ 40",
           "連携強化時　コンシュの爪が生成されました 3",
           {
-            "text": "基本効果　Deploy an Ankh Trap. Upon triggering, an Ankh materializes at the location, while summoning a single Talon of Khonshu to Launch enemies toward the trap's center.",
+            "text": "基本効果　アンク トラップを展開します。トリガーすると、アンクがその場所に実体化し、コンシューの爪を 1 つ召喚して、トラップの中心に向かって敵を打ち上げます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Elsa Bloodstone, triggering the trap summons multiple Talons of Khonshu to bombard the area.",
+            "text": "連携強化時　エルサ・ブラッドストーンとチームを組むと、トラップをトリガーすると複数のコンシュの爪が召喚され、エリアを砲撃します。",
             "detail": true
           }
         ],
@@ -8779,11 +8783,11 @@
           "連携強化時　クールダウン回復速度ブースト 200%",
           "連携強化時　ガンマタコのダメージブースト率 25%",
           {
-            "text": "基本効果　Summon an extra Gamma Monstro that continuously damages the nearest enemy. Upon landing critical hits, the Gamma Monstro gains increased Attack Speed. Hitting an enemy with Wrath of the Seven Seas prompts it to fire a powerful beam.",
+            "text": "基本効果　最も近い敵に継続的にダメージを与える追加のガンマ モンストロを召喚します。クリティカルヒットを当てると、ガンマモンストロの攻撃速度が増加します。 Wrath of the Seven Seas で敵を攻撃すると、強力なビームが発射されます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Hulk, casting Blessing of the Deep creates a water barrier infused with Gamma energy. Standing inside accelerates the Gamma Monstro cooldown and grants it a Damage Boost.",
+            "text": "連携強化時　ハルクとチームを組む場合、Blessing of the Deep を唱えると、ガンマ エネルギーが注入された水の障壁が作成されます。中に立つとガンマ モンストロのクールダウンが加速され、ダメージ ブーストが与えられます。",
             "detail": true
           }
         ],
@@ -8821,11 +8825,11 @@
           "連携強化時　最大距離での霜波ダメージ 50",
           "連携強化時　減速率 2秒間40%",
           {
-            "text": "基本効果　Gain a new ability to summon a Frost Tide forward. The wave damages, Pushes Back, and inflicts a Slow on all enemies hit.",
+            "text": "基本効果　Frost Tide を前方に召喚する新しい能力を獲得します。波はダメージを与え、押し返し、ヒットしたすべての敵にスローを与えます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Luna Snow, the Frost Tide gains 1 charge and crashes down upon reaching its maximum range, dealing area damage and Slowing enemies caught near the endpoint.",
+            "text": "連携強化時　Luna Snow とチームを組むと、Frost Tide は 1 チャージを獲得し、最大射程に達すると墜落し、範囲にダメージを与え、エンドポイント付近で捕らえられた敵の速度を低下させます。",
             "detail": true
           }
         ],
@@ -9006,11 +9010,11 @@
           "連携強化時　生成されたトラップ 8",
           "連携強化時　ダメージ 各45個",
           {
-            "text": "基本効果　Gain a new ability to toss Twisted Thorn Seeds forward. Upon landing, they rapidly Sprout and take root, generating Thorn Snares around the area. Enemies stepping on a snare take damage and suffer a Root effect.",
+            "text": "基本効果　Twisted Thorn Seedsを前方に投げる新しい能力を獲得します。着陸すると、それらは急速に芽を出し、根を張り、エリアの周囲にThorn Snaesを生成します。スネアを踏んだ敵はダメージを受け、ルート効果を受けます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Groot, the number of Thorn Snares deployed increases, and the damage dealt when an enemy steps on them is boosted.",
+            "text": "連携強化時　グルートと連携すると、ソーン・スネアの設置数が増加し、敵が踏むダメージが増加します。",
             "detail": true
           }
         ],
@@ -9027,11 +9031,11 @@
           "テレキネティックビーコンをキャンセルした後に交換するクールダウン 5秒",
           "連携強化時　KOあたりの能力CD減少 10秒",
           {
-            "text": "基本効果　Gain a new ability to place a Telekinetic Beacon. You can teleport back to the location where the beacon is deployed from anywhere on the map. Upon defeat, Star-Lord will cocoon and respawn at the Telekinetic Beacon's coordinates.",
+            "text": "基本効果　Telekinetic Beacon を配置する新しい能力を獲得します。マップ上のどこからでも、ビーコンが配置されている場所にテレポートして戻すことができます。敗北すると、スターロードは繭に入り、テレキネティックビーコンの座標にリスポーンします。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Adam Warlock, every time Star-Lord participates in a KO, Telekinetic Beaconcooldown is reduced.",
+            "text": "連携強化時　アダム ウォーロックとチームを組むと、スター ロードが KO に参加するたびに、テレキネティック ビーコンのクールダウンが減少します。",
             "detail": true
           }
         ],
@@ -9297,11 +9301,11 @@
           "連携強化時　活性化するのに必要なエネルギー 22.5",
           "連携強化時　魔法マスタリーによって検出された敵ごとにチャージ 9",
           {
-            "text": "基本効果　Chthonian Burst is replaced with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction.",
+            "text": "基本効果　クトニアン バーストは、発動時にミスティック バーストに置き換えられます。攻撃ボタンを押し続けると、ターゲット方向に魔法のミサイルを素早く容赦なく一斉射撃します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Doctor Strange, Scarlet Witch's maximum total Chaos Energy pool increases, and Chaos Control generates energy much faster when attacking.",
+            "text": "連携強化時　ドクター・ストレンジとチームを組むと、スカーレット・ウィッチの合計カオス・エネルギー・プールの最大値が増加し、カオス・コントロールは攻撃時にエネルギーをより速く生成します。",
             "detail": true
           }
         ],
@@ -9321,11 +9325,11 @@
           "連携強化時　回復量 4.2/ヒット",
           "連携強化時　1秒あたり10回",
           {
-            "text": "基本効果　Infuse firework energy into the Dark Seal forcefield, turning it into a Plasmoid Seal, allowing for a secondary blast. After expanding the Plasmoid Seal, pressing the {Ability1} key again while it persists will detonate the fireworks, dealing damage and inflicting Vulnerability.",
+            "text": "基本効果　花火のエネルギーをダークシールの力場に注入し、それをプラズモイドシールに変え、二次爆発を可能にします。プラズモイドシールを展開した後、持続中にもう一度 {Ability1} キーを押すと花火が爆発し、ダメージを与えて脆弱性を与えます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Jubilee, Scarlet Witch receives constant healing from the firework energy while using Mystic Projection.",
+            "text": "連携強化時　ジュビリーとチームを組むと、スカーレット ウィッチはミスティック プロジェクションを使用している間、花火のエネルギーから継続的な回復を受けます。",
             "detail": true
           }
         ],
@@ -9539,11 +9543,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Unlocks the Burst Spike ability. Using the bionic arm emits forward electricity, dealing damage and Knocking Back enemies.",
+            "text": "基本効果　バーストスパイク能力のロックを解除します。バイオニック アームを使用すると、前方に電気が放出され、ダメージを与え、敵をノックバックします。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with The Punisher, the electric burst applies a Grounded effect and Knocks Back enemies even further.",
+            "text": "連携強化時　パニッシャーとチームを組むと、電気バーストが接地効果を適用し、敵をさらにノックバックします。",
             "detail": true
           }
         ],
@@ -9562,11 +9566,11 @@
           "エネルギースタックごとに必要な直接ダメージ 500",
           "連携強化時　ボーナスHP 55",
           {
-            "text": "基本効果　Securing or participating in a KO grants a stack of Culling Instinct. Each stack reduces the cooldowns of Winter Soldier's other abilities. All stacks are lost upon defeat.",
+            "text": "基本効果　KOを確保または参加すると、Culling Instinctのスタックが付与されます。各スタックは、ウィンター ソルジャーの他の能力のクールダウンを短縮します。敗北するとすべてのスタックが失われます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Elsa Bloodstone, the Bonus Health generated by Ceaseless Charge is increased.",
+            "text": "連携強化時　エルサ ブラッドストーンとチームを組むと、Ceaseless Charge によって生成されるボーナス ヘルスが増加します。",
             "detail": true
           }
         ],
@@ -9805,11 +9809,11 @@
           "連携強化時　1秒あたり10回",
           "連携強化時　減速率 50%",
           {
-            "text": "基本効果　Venom shares a part of his symbiote with Spider-Man, activating their symbiote abilities. Spider-Man can convert the symbiotes into explosive spikes that inflict harm on nearby enemies and relentlessly drive them back.",
+            "text": "基本効果　ヴェノムはスパイダーマンとシンビオートの一部を共有し、彼らのシンビオートの能力を活性化します。スパイダーマンはシンビオートを爆発性のスパイクに変換し、近くの敵に危害を与え、容赦なく追い返すことができます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Venom, this triggers additional Touch of Klyntar tendrils that continuously tether and damage enemies on top of the base effect.",
+            "text": "連携強化時　ヴェノムとチームを組むと、基本効果に加えて継続的に敵を拘束しダメージを与えるクリンターの触手の追加がトリガーされます。",
             "detail": true
           }
         ],
@@ -9827,11 +9831,11 @@
           "爆発カウントダウン 2秒",
           "連携強化時　爆発マークによるボーナスHP 40",
           {
-            "text": "基本効果　Peni Parker whips up a Sticky Spider-Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a Spider-Tracer to them. If not thrown in time, it explodes on Spider-Man, recharging all Web-Cluster shots.",
+            "text": "基本効果　ペニ・パーカーがスパイダーマンのために粘着性のスパイダーボムを作成します!準備を整え、タイマーが切れる前に投げると爆発が起こり、近くの敵にダメージを与え、スパイダートレーサーを敵に取り付けます。時間内に投げられなかった場合、それはスパイダーマンに向かって爆発し、すべてのウェブクラスターショットを再充電します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Peni Parker, Spider-Tracers applied by Web-Cluster are upgraded. Detonating these upgraded marks generates <Buff>Bonus Health for Spider-Man.",
+            "text": "連携強化時　ペニ・パーカーとチームを組むと、ウェブクラスターによって適用されたスパイダートレーサーがアップグレードされます。これらのアップグレードされたマークを爆発させると、スパイダーマンの<Buff>ボーナスHPが生成されます。",
             "detail": true
           }
         ],
@@ -10206,11 +10210,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Chain of Cyttorak can tether two enemies simultaneously, dragging both targets to the same location.",
+            "text": "基本効果　Chain of Cyttorak は 2 人の敵を同時につなぎ、両方のターゲットを同じ場所にドラッグします。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Doctor Strange, Chain of Cyttorak can tether multiple enemies at once, pulling the entire group to a singular point.",
+            "text": "連携強化時　ドクター・ストレンジとチームを組むと、チェーン・オブ・サイトラックは一度に複数の敵をつなぎ、グループ全体を特異点に引き寄せることができます。",
             "detail": true
           }
         ],
@@ -10234,11 +10238,11 @@
           "連携強化時　ヘルフロンティアの悪魔の体力増加 25",
           "連携強化時　ヘルフロンティアの悪魔の攻撃範囲増加 2.5 m",
           {
-            "text": "基本効果　Casting Stepping Discs within an Hellish Magic Circle refunds energy, and each use of Stepping Discs summons a Limbo Demon.",
+            "text": "基本効果　地獄の魔法陣内でステッピング ディスクをキャストするとエネルギーが払い戻され、ステッピング ディスクを使用するたびにリンボ デーモンが召喚されます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with The Hood, the summoned Limbo Demons have heavily increased Health and a wider attack range.",
+            "text": "連携強化時　The Hood とチームを組むと、召喚された Limbo Demon の体力が大幅に増加し、攻撃範囲が広がります。",
             "detail": true
           }
         ],
@@ -10415,11 +10419,11 @@
           },
           "連携強化時　減速率 2秒間45%",
           {
-            "text": "基本効果　Triggers the elemental power within his armor, dealing damage and applying Slow to surrounding enemies while attaching Vibranium Marks.",
+            "text": "基本効果　鎧内の元素の力をトリガーし、ダメージを与え、ヴィブラニウム マークを付けながら周囲の敵に低速を適用します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Storm, enemies within range are launched toward Black Panther.",
+            "text": "連携強化時　ストームとチームを組むと、範囲内の敵がブラックパンサーに向かって発射されます。",
             "detail": true
           }
         ],
@@ -10440,11 +10444,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Activate a Limbo stepping disc to instantly return to your position from a few seconds ago, gaining Bonus Health in the process. When the teleport ends, the disc collapses in an explosion, damaging nearby enemies and applying Vibranium Marks.",
+            "text": "基本効果　リンボ ステッピング ディスクをアクティブにすると、数秒前の位置に即座に戻り、その過程でボーナス ヘルスを獲得します。テレポートが終了すると、ディスクが爆発で崩壊し、近くの敵にダメージを与え、ヴィブラニウム マークを適用します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Magik, the teleportation sequence can be manually canceled mid-transit.",
+            "text": "連携強化時　Magik とチームを組むと、テレポート シーケンスを移動中に手動でキャンセルできます。",
             "detail": true
           }
         ],
@@ -10640,11 +10644,11 @@
           "連携強化時　ナイトソードの棘増加 2",
           "連携強化時　健康が回復しました 1発あたり20個",
           {
-            "text": "基本効果　Replace Soul Drainer with Hel Tendrils. Upon hit, tendrils pull nearby enemies toward the impact point and links them, Slowingenemies that try to escape.",
+            "text": "基本効果　Soul Drainer を Hel Tendrils に置き換えます。ヒットすると、巻きひげが近くの敵を衝撃点に向かって引き寄せ、逃げようとするスローインエネミーとリンクします。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Venom, Piercing Night fires a dense volley of symbiote-infused Nightsword Thorns. Each direct Nightsword Thorn hit restores a portion of Hela's Health",
+            "text": "連携強化時　ヴェノムとチームを組むと、ピアシング ナイトはシンビオートを注入したナイトソードのとげの密集した一斉射撃を発射します。 Nightsword Thorn が直接ヒットするたびに、Hela の体力の一部が回復します。",
             "detail": true
           }
         ],
@@ -10673,11 +10677,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Whenever Hela participates in a KO, an Undead Monstro spawns at the fallen enemy's position. While an Undead Monstro is present, casting Piercing Night will command the Monstro to spit a Nightsword Thorn at the nearest enemy.",
+            "text": "基本効果　ヘラがKOに参加するたびに、倒れた敵の位置にアンデッド モンストロが出現します。アンデッド モンストロが存在する場合、ピアシング ナイトを唱えると、モンストロに最も近い敵にナイトソード ソーンを吐き出すように命令されます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Namor, each attack during Goddess of Death spawns an Undead Monstro at the point of impact.",
+            "text": "連携強化時　ネイモアとチームを組むと、死の女神の攻撃のたびに、衝撃点にアンデッド モンストロが生成されます。",
             "detail": true
           }
         ],
@@ -10879,11 +10883,11 @@
           "連携強化時　ボルトラッシュヒットダメージ 80",
           "連携強化時　ボルトラッシュバウンスダメージ 50",
           {
-            "text": "基本効果　Upgrade Wind Blade into a hitscan beam that detonates upon striking a target.",
+            "text": "基本効果　ウィンドブレードをターゲットに当たると爆発するヒットスキャンビームにアップグレードします。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Thor, Bolt Rush becomes Chain Lightning, allowing it to bounce from foe to foe",
+            "text": "連携強化時　トールとチームを組むと、ボルト ラッシュがチェーン ライトニングになり、敵から敵へと跳ね返ることができます。",
             "detail": true
           }
         ],
@@ -10908,11 +10912,11 @@
           "連携強化時　ジェフ・ナドの自己治癒率 15/秒",
           "連携強化時　飲み込むのに必要な時間 2.5",
           {
-            "text": "基本効果　Unleash a torrential downpour that continuously heals both herself and her teammates.",
+            "text": "基本効果　豪雨を放ち、彼女自身とチームメイトの両方を継続的に回復します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Jeff the Land Shark, casting Omega Hurricane allows Jeff to swim inside the cyclone, generating a localized Jeff-nado.",
+            "text": "連携強化時　ランドシャークのジェフとチームを組む場合、オメガ ハリケーンをキャストすると、ジェフがサイクロン内を泳ぎ、局所的なジェフ ナドを生成できるようになります。",
             "detail": true
           }
         ],
@@ -11136,11 +11140,11 @@
           "救出貫通ビームダメージ 1発あたり10ダメージ",
           "連携強化時　バリアへのボーナスダメージ 40%",
           {
-            "text": "基本効果　Shoot piercing bullets that carry a Damage Boost effect.",
+            "text": "基本効果　ダメージブースト効果を持つ貫通弾を発射します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Daredevil, the bullets break enemy summoned walls and shields more quickly.",
+            "text": "連携強化時　デアデビルとチームを組むと、弾丸が敵の召喚した壁やシールドをより早く破壊します。",
             "detail": true
           }
         ],
@@ -11161,11 +11165,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Throw an Ammo Overload Device in the target direction. Upon entering the device's range, receive Faster Firing.",
+            "text": "基本効果　弾薬過負荷装置をターゲット方向に投げます。デバイスの範囲に入ると、Faster Firing が適用されます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Rocket Raccoon, the device grants Infinite Ammo.",
+            "text": "連携強化時　Rocket Raccoon とチームを組むと、デバイスは無限の弾薬を付与します。",
             "detail": true
           }
         ],
@@ -11393,11 +11397,11 @@
           "一度きりの癒し 45",
           "連携強化時　時間の経過によるダメージ 35/秒",
           {
-            "text": "基本効果　Shoot out healing tendrils; linked allies receive Continuous Healing, and excess healing is converted into Bonus Health.",
+            "text": "基本効果　治癒の蔓を撃ち出す。リンクされた味方は継続的な回復を受け、過剰な回復はボーナスHPに変換されます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Venom, symbiote tendrils can also lash out at nearby enemies within range, inflicting continuous damage.",
+            "text": "連携強化時　ヴェノムとチームを組むと、シンビオートの蔓が範囲内の近くの敵に襲いかかり、継続的なダメージを与えることもできます。",
             "detail": true
           }
         ],
@@ -11415,11 +11419,11 @@
           "回復量 30/秒",
           "連携強化時　ダメージ 30/秒",
           {
-            "text": "基本効果　Gain a new ability to spit out a Deadpool Plushie. The plushie continuously Taunts nearby enemies while spraying a healing mist onto surrounding allies.",
+            "text": "基本効果　デッドプールのぬいぐるみを吐き出す新しい能力を獲得します。ぬいぐるみは周囲の敵を挑発し続けながら、周囲の味方に治癒の霧をスプレーします。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Deadpool, the Deadpool Plushie asserts a much stronger Taunt while concurrently damaging enemies caught in its radius.",
+            "text": "連携強化時　デッドプールとチームを組むと、デッドプールのぬいぐるみははるかに強力な挑発を発動し、同時に半径内に捕らえられた敵にダメージを与えます。",
             "detail": true
           }
         ],
@@ -11678,11 +11682,11 @@
           "ダメージ範囲 3 m",
           "連携強化時　CD 10",
           {
-            "text": "基本効果　Unleash a spirit fox forward that damages enemies without applying Charm while healing any allies in its path. Activating the ability instantly cleanses all negative status effects on Luna Snow.",
+            "text": "基本効果　スピリット フォックスを前方に解き放ち、チャームを適用せずに敵にダメージを与え、同時に進路上の味方を回復します。この能力をアクティブにすると、Luna Snow に対するすべてのマイナスのステータス効果が即座に浄化されます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with White Fox, the spirit fox automatically returns after reaching its maximum distance, and the self-cleanse is retained.",
+            "text": "連携強化時　白狐と組むと、霊狐は最大距離に達すると自動帰還し、自浄作用は保持される。",
             "detail": true
           }
         ],
@@ -11713,11 +11717,11 @@
           "連携強化時　アイスアーツのクリティカルあたりCD減少 1.5秒",
           "連携強化時　絶対零度クリティカル当たりのcd減少 0.5秒",
           {
-            "text": "基本効果　Cast Soul Bond to tether all characters within range. Attacking tethered enemies or healing linked allies restores your Health.",
+            "text": "基本効果　ソウルボンドを唱えて範囲内のすべてのキャラクターをつなぎます。つながれた敵を攻撃したり、リンクされた味方を回復すると、体力が回復します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Adam Warlock, scoring critical hits with Light & Dark Ice reduces the cooldowns of Absolute Zero and Ice Arts.",
+            "text": "連携強化時　アダム ウォーロックとチームを組んだ場合、光と闇の氷でクリティカル ヒットを獲得すると、絶対零度と氷の芸術のクールダウンが短縮されます。",
             "detail": true
           }
         ],
@@ -11954,11 +11958,11 @@
           "連携強化時　持続時間 8秒",
           "連携強化時　死んでも健康が保たれる 150",
           {
-            "text": "基本効果　Gain a new ability to target fallen heroes (friend or foe), letting Loki assume their form for a set time (cannot cast their Ultimate Ability). When Hela is selected as the Team-Up partner, each destroyed Illusion reduces the cooldowns of Doppelganger and Devious Exchange by 1秒 each.",
+            "text": "基本効果　倒れたヒーロー (敵または味方) を対象とする新しい能力を獲得し、ロキが一定時間その姿になるようにします (究極の能力を発動することはできません)。ヘラがチームアップパートナーとして選択されると、イリュージョンが破壊されるたびに、ドッペルゲンガーとデヴィアスエクスチェンジのクールダウンがそれぞれ1秒ずつ減少します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Hela, Loki's transformation lasts slightly longer. Furthermore, taking lethal damage while transformed or in his Ultimate Ability state will merely revert him back to Loki with a sliver of Health, preventing a KO.",
+            "text": "連携強化時　ヘラとチームを組むと、ロキの変身時間がわずかに長くなります。さらに、変身中またはアルティメット アビリティ状態で致命的なダメージを受けると、体力がわずかに減ってロキに戻るだけで、KO を防ぐことができます。",
             "detail": true
           }
         ],
@@ -11986,11 +11990,11 @@
           "フィールド範囲 半径6.5 m",
           "連携強化時　一回限りのダメージ 45",
           {
-            "text": "基本効果　The Runestone triggers a psychic catalysis, expanding Regeneration Domain's radius.",
+            "text": "基本効果　ルーンストーンは精神的触媒作用を引き起こし、再生ドメインの範囲を拡大します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Mantis, deploying Regeneration Domain emits a shockwave of psychic energy that damages enemies within the radius and slightly Launches them up.",
+            "text": "連携強化時　Mantis とチームを組む場合、Regeneration Domain を展開すると、半径内の敵にダメージを与え、わずかに打ち上げる精神エネルギーの衝撃波が放射されます。",
             "detail": true
           }
         ],
@@ -12247,11 +12251,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Recasting Healing Flower on a teammate with the effect enhances and spreads the healing aura.",
+            "text": "基本効果　効果を持つチームメイトにヒーリングフラワーを再キャストすると、ヒーリングオーラが強化され、広がります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Star-Lord, using Healing Flower on any teammate instantly triggers the enhanced Spell Field and healing effect.",
+            "text": "連携強化時　スターロードとチームを組むとき、チームメイトにヒーリングフラワーを使用すると、強化された効果範囲と治癒効果が即座にトリガーされます。",
             "detail": true
           }
         ],
@@ -12292,11 +12296,11 @@
             "detail": true
           },
           {
-            "text": "基本効果　Upon defeat, Mantis can freely move as a soul, healing nearby allies, and reforge her body at a chosen spot. After using Natural Anger, the effect of Nature's Favor is enhanced, increasing the amount of healing provided.",
+            "text": "基本効果　敗北すると、マンティスは魂として自由に移動し、近くの味方を回復し、選択した場所で体を鍛え直すことができます。 Natural Angerを使用すると、Nature's Favorの効果が強化され、提供される治癒量が増加します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Adam Warlock, her soul state can forge Soul Bond with nearby teammates, granting Healing Over Timeand distributing damage taken across the bond.",
+            "text": "連携強化時　アダム・ウォーロックとチームを組むと、彼女の魂の状態は近くのチームメイトと魂の絆を築き、時間の経過に伴う治癒を与え、絆全体で受けるダメージを分散させることができます。",
             "detail": true
           }
         ],
@@ -12554,11 +12558,11 @@
           "攻撃間隔 1ショットあたり0.18秒",
           "連携強化時　バリアの健康 400",
           {
-            "text": "基本効果　Upon activation, briefly grants Cyber-Web Clusteran Attack Speedand DamageBoost.",
+            "text": "基本効果　アクティブ化すると、サイバーウェブ クラスタランの攻撃速度とダメージブーストが短時間付与されます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Black Panther, activating the ability deploys a frontal Vibranium Shield, while reducing the Vibranium Energy cost of Cyber-Web Cluster.",
+            "text": "連携強化時　ブラックパンサーとチームを組む場合、能力をアクティブにすると、正面にビブラニウム シールドが展開され、同時にサイバーウェブ クラスターのビブラニウム エネルギー コストが削減されます。",
             "detail": true
           }
         ],
@@ -12578,11 +12582,11 @@
           "連携強化時　スパイダードローンによるダメージ 40",
           "連携強化時　スパイダードローン生成間隔 8秒",
           {
-            "text": "基本効果　Deploy an Armored Spider-Nestthat periodically drops Spider-Dronesand Armor Packsthat grant Bonus Health.",
+            "text": "基本効果　定期的にスパイダー ドローンとボーナス ヘルスを付与するアーマー パックをドロップする装甲スパイダー ネストを配備します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Rocket Raccoon, the Armored Spider-Nestpassively regenerates its own Health. Furthermore, Rocket's B.R.B.will generate Cyber-Webs, and spawn both Spider-Dronesand Arachno-Mines.",
+            "text": "連携強化時　Rocket Raccoon とチームを組むと、Armored Spider-Nest は自身の体力を自動的に回復します。さらに、ロケットの B.R.B. はサイバーウェブを生成し、スパイダー ドローンサンドとアラクノ・マインの両方を生成します。",
             "detail": true
           }
         ],
@@ -12826,11 +12830,11 @@
           "連携強化時　継続回復 50/秒",
           "連携強化時　3秒間",
           {
-            "text": "基本効果　Receiving fatal damage prevents immediate defeat, Thor gains a decaying pool of Bonus Health. If he participates in a KO during this time, he resurrects and recovers a small amount of Health.",
+            "text": "基本効果　致命的なダメージを受けると即座に敗北することがなくなり、ソーは衰退するボーナスHPのプールを獲得します。この間にKOに参加すると、彼は復活して少量の体力を回復します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Hela, if either of them participates in a KO, Thor instantly revives, restoring Health equal to his remaining Bonus Health and gaining a Continuous Healing effect.",
+            "text": "連携強化時　ヘラとチームを組んだ場合、どちらかがKOに参加すると、ソーは即座に復活し、残りのボーナスHPに等しい体力を回復し、継続的な治癒効果を獲得します。",
             "detail": true
           }
         ],
@@ -12849,11 +12853,11 @@
           "グランドスラムダメージ範囲 半径5 mの球体",
           "連携強化時　ボーナスHP 100",
           {
-            "text": "基本効果　Hurl a Thunder Spear that restores Thorforce for each enemy struck. Afterward, Thor canleap to the spear's explosion point, dealing a second wave of damage to all enemies within range.",
+            "text": "基本効果　攻撃を受けた敵ごとにソーフォースを回復するサンダースピアを投げます。その後、ソーは槍の爆発点まで跳躍し、範囲内のすべての敵に第 2 波のダメージを与えます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Angela, leaping to the Thunder Spear grants Bonus Health.",
+            "text": "連携強化時　アンジェラとチームを組んだ場合、サンダースピアに飛びつくとボーナスHPが付与されます。",
             "detail": true
           }
         ],
@@ -13087,11 +13091,11 @@
           "連携強化時　効果範囲爆発ダメージ 25",
           "連携強化時　弾速 120 m/秒",
           {
-            "text": "基本効果　Summons a Chaos Greatsword that deals damage to enemies in front.",
+            "text": "基本効果　前方の敵にダメージを与えるカオス グレートソードを召喚します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Scarlet Witch, Magnetic Cannon becomes a charged ability. Charging consumes passive energy, and each energy segment consumed fires a Chaos Greatsword that deals damage to enemies.",
+            "text": "連携強化時　スカーレットウィッチとチームを組むと、マグネティックキャノンがチャージアビリティになります。充電にはパッシブ エネルギーが消費され、消費されたエネルギー セグメントごとにカオス グレートソードが発射され、敵にダメージを与えます。",
             "detail": true
           }
         ],
@@ -13109,11 +13113,11 @@
           "磁気投射の最大持続時間 6秒",
           "連携強化時　磁気投射最大ダメージ吸収量増加 150",
           {
-            "text": "基本効果　Cast a magnetic projection that mimics Magneto's movement and ability casts perfectly from the enemy's perspective.",
+            "text": "基本効果　マグニートーの動きと能力を敵の視点から完璧に模倣する磁気投影をキャストします。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Emma Frost, the magnetic projection receives a massive Health bump and will persist indefinitely unless destroyed or manually recalled.",
+            "text": "連携強化時　エマ・フロストとチームを組むと、磁気投影は大規模な体力増加を受け、破壊されるか手動で呼び戻されない限り無期限に持続します。",
             "detail": true
           }
         ],
@@ -13366,11 +13370,11 @@
           "触手の爆発ダメージから治癒への変換率 50%",
           "連携強化時　1回の回復量 40",
           {
-            "text": "基本効果　Cellular Corrosion new effect: while tethered to enemies, continuously siphon health from every linked target, restoring Venom's Health.",
+            "text": "基本効果　細胞腐食 新しい効果: 敵につながれている間、リンクされているすべてのターゲットからヘルスを継続的に吸い上げ、ヴェノムのヘルスを回復します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Blade, Venom gains a burst of one-time healing when using certain specific abilities.",
+            "text": "連携強化時　Blade とチームを組むと、特定の能力を使用すると、Venom は 1 回限りの回復のバーストを獲得します。",
             "detail": true
           }
         ],
@@ -13390,11 +13394,11 @@
           "連携強化時　爆発範囲 半径3 mの球体",
           "連携強化時　爆発ダメージ 20",
           {
-            "text": "基本効果　Ignites the symbiote with Phoenix Flames for a duration, replacing Dark Predation with a sweeping Phoenix Touch frontal slash.",
+            "text": "基本効果　一定期間、シンビオートをフェニックス フレイムで点火し、ダーク プレデーションをフェニックス タッチの前面斬りに置き換えます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Phoenix, Venom's Phoenix Force is enhanced: every Phoenix Touch applies Sparks. Upon reaching three stacks, the Sparks detonate.",
+            "text": "連携強化時　フェニックスとチームを組むと、ヴェノムのフェニックス フォースが強化されます。フェニックス タッチごとにスパークが適用されます。 3 つのスタックに到達すると、スパークが爆発します。",
             "detail": true
           }
         ],
@@ -13625,11 +13629,11 @@
           "連携強化時　治癒力の強化 35/秒",
           "連携強化時　アップグレードごとに体力が増加 50",
           {
-            "text": "基本効果　Summon a Wild Wall that provides Continuous Healing and Bonus Health to allies within its range. Wild Wall is also affected by the Flora Colossus passive, with the same effect as Thornlash Wall.",
+            "text": "基本効果　範囲内の味方に継続的な回復とボーナスHPを提供するワイルドウォールを召喚します。ワイルド ウォールはフローラ コロッサスのパッシブの影響も受け、ソーンラッシュ ウォールと同じ効果があります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Mantis, the Wild Wall evolves after providing a certain amount of healing, increasing its healing",
+            "text": "連携強化時　マンティスと連携すると、ワイルドウォールが一定の回復量を与えた後に進化し、回復力が増加します",
             "detail": true
           }
         ],
@@ -13648,11 +13652,11 @@
           "連携強化時　回復量を増加させる 40/秒",
           "連携強化時　オーバーヒーリングからボーナスHPへの変換率 50%",
           {
-            "text": "基本効果　Retreat inside a Bubble Shield to enter an Invincible state, granting self-targeted Continuous Healing.",
+            "text": "基本効果　バブル シールド内に退却すると無敵状態になり、自己対象の継続的治癒が得られます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Jeff the Land Shark, the healing effect inside the bubble is enhanced, and any excess healing converts into Bonus Health.",
+            "text": "連携強化時　ジェフ・ザ・ランド・シャークとチームを組むと、バブル内の治癒効果が強化され、過剰な回復はボーナスHPに変換されます。",
             "detail": true
           }
         ],
@@ -13849,11 +13853,11 @@
           "ダメージシェアの持続時間 2秒",
           "連携強化時　移動速度上昇 1.5 m/秒",
           {
-            "text": "基本効果　Captain America can leap directly to a teammate, providing Bonus Health to both himself and the ally, while redirecting a portion of their incoming damage to himself.",
+            "text": "基本効果　キャプテン・アメリカはチームメイトに直接ジャンプして、自分と味方の両方にボーナスHPを提供し、同時に受けるダメージの一部を自分にリダイレクトすることができます。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Winter Soldier, the duo can trigger a mutual rally. Upon confirmation, they charge at one another, slamming together to grant Bonus Health and Movement Speed to all nearby friends. The original effect remains, now additionally granting a Speed Boost to the targeted teammate.",
+            "text": "連携強化時　ウィンター ソルジャーとチームを組むと、デュオは相互結集を引き起こすことができます。確認すると、彼らは互いに突進し、近くの友達全員にボーナスHPと移動速度を与えるために一緒に叩きつけます。元の効果はそのまま残り、対象のチームメイトにさらにスピードブーストが付与されます。",
             "detail": true
           }
         ],
@@ -13871,11 +13875,11 @@
           "連携強化時　広範囲ダメージ 5",
           "連携強化時　ダメージ範囲 半径3 mの球体",
           {
-            "text": "基本効果　Modifies Sentinel Strike into a Lightning Shield projectile. After landing two hits, Captain America launches the piercing Lightning Shield four times.",
+            "text": "基本効果　Sentinel Strike を Lightning Shield 発射体に変更します。キャプテン・アメリカは2回攻撃を当てた後、貫通するライトニング・シールドを4回発射する。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Thor, the lightning energy imbued in the shield intensifies. Each hit from the Lightning Shield triggers an extra burst of damage in the surrounding area.",
+            "text": "連携強化時　トールとチームを組むと、シールドに込められた雷のエネルギーが強化されます。ライトニング シールドがヒットするたびに、周囲のエリアに追加のバーストダメージが発生します。",
             "detail": true
           }
         ],
@@ -14045,11 +14049,11 @@
           "連携強化時　回復量 30",
           "連携強化時　範囲 半径8 m",
           {
-            "text": "基本効果　Rogue infuses Nightcrawler with Chronovium Power. Upon activation, briefly vanish, and the energy radiates outward from your vanishing point, damaging enemies and healing allies. After a short delay, reappear above your original location, slamming down with three swords to deal secondary damage and apply a Slow to enemies in range.",
+            "text": "基本効果　ローグはナイトクローラーにクロノヴィウム パワーを注入します。発動すると短時間消滅し、エネルギーが消失点から外側に放射され、敵にダメージを与え、味方を回復します。少し遅れて元の場所の上に再び現れ、3 本の剣で叩きつけて二次ダメージを与え、範囲内の敵にスローを適用します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Rogue, the Chronovium Power is recalled after the downward thrust. The recall heals allies, damages enemies, and Launches enemies toward you.",
+            "text": "連携強化時　ローグとチームを組むと、下方向への突き上げ後にクロノヴィウム パワーが呼び出されます。リコールは味方を回復し、敵にダメージを与え、敵をあなたに向かって発射します。",
             "detail": true
           }
         ],
@@ -14067,11 +14071,11 @@
           "範囲 半径8 m",
           "連携強化時　ボーナスHP 25",
           {
-            "text": "基本効果　Magik empowers Nightcrawler with Limbo's demonic magic. Each spatial warp (all 3 stages of Smoke Shift, both stages of Tandem Teleport, or the single stage of Swift Intervention) generates a spell field that damages enemies and heals allies.",
+            "text": "基本効果　Magick は Nightcrawler に Limbo の悪魔の魔法を与えます。各空間ワープ (スモーク シフトの 3 つのステージすべて、タンデム テレポートの両方のステージ、またはスウィフト インターベンションの 1 つのステージ) は、敵にダメージを与え、味方を回復するスペル フィールドを生成します。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Magik, every warp also coalesces demonic armor, granting Bonus Health.",
+            "text": "連携強化時　Magik とチームを組むと、すべてのワープも悪魔の鎧と合体し、ボーナスHPが付与されます。",
             "detail": true
           }
         ],
@@ -14346,11 +14350,11 @@
           },
           "連携強化時　移動速度上昇 30%",
           {
-            "text": "基本効果　Teammates linked by Soul Bond receive a Speed Boost.",
+            "text": "基本効果　ソウルボンドでリンクされたチームメイトはスピードブーストを受け取ります。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Storm, linked teammates additionally gain a Damage Boost.",
+            "text": "連携強化時　ストームとチームを組むと、リンクされたチームメイトはさらにダメージブーストを獲得します。",
             "detail": true
           }
         ],
@@ -14369,11 +14373,11 @@
           "連携強化時　範囲ダメージ 5/ショット",
           "連携強化時　範囲回復 7/ショット",
           {
-            "text": "基本効果　Cosmic Cluster now provides healing to allies.",
+            "text": "基本効果　コズミッククラスターが味方に癒しを提供するようになりました。",
             "detail": true
           },
           {
-            "text": "連携強化時　When teaming up with Ultron, Cosmic Cluster creates an explosion upon impact.",
+            "text": "連携強化時　ウルトロンとチームを組むと、コズミック クラスターは衝撃時に爆発を引き起こします。",
             "detail": true
           }
         ],

@@ -92,7 +92,6 @@ window.MR_WIKI_DATA = {
       sourceIds: ["official-s11", "official-hero", "official-s10", "reference-sheet"],
       quickFacts: [
         { label: "基礎HP", value: "500" },
-        { label: "ヒーリングファクター（パッシブ）CD", value: "45秒" },
         { label: "ULT CD", value: "60秒" }
       ],
       tests: [

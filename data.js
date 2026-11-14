@@ -27,7 +27,7 @@ window.MR_WIKI_DATA = {
   sources: [
     {
       id: "user-training-1114",
-      label: "訓練所での実測（ユーザー記録）",
+      label: "訓練場での実測（ユーザー記録）",
       type: "実測",
       date: "2026-11-14",
       url: null,
@@ -95,15 +95,11 @@ window.MR_WIKI_DATA = {
         { label: "ヒーリングファクター（パッシブ）CD", value: "45秒" },
         { label: "ULT CD", value: "60秒" }
       ],
-      testNotes: [
-        "88・102・127ダメージは、HP500のタンク・デッドプールを相手に検証。",
-        "137ダメージは、HP850のグルートを相手に検証。"
-      ],
       tests: [
-        { condition: "HP 500のタンク・デッドプール", label: "剣・未強化", value: "88", detail: "左クリック3連（斬り→突き→払い）合計", sourceIds: ["user-training-1114"] },
-        { condition: "HP 500のタンク・デッドプール", label: "剣・通常強化", value: "102", detail: "左クリック3連（斬り→突き→払い）合計", sourceIds: ["user-training-1114"] },
-        { condition: "HP 500のタンク・デッドプール", label: "剣・2段階強化", value: "127", detail: "左クリック3連（斬り→突き→払い）合計", sourceIds: ["user-training-1114"] },
-        { condition: "HP 850のグルート", label: "剣・2段階強化", value: "137", detail: "左クリック3連（斬り→突き→払い）合計", sourceIds: ["user-training-1114"] }
+        { condition: "HP 500のタンク・デッドプールに対する実測値", label: "剣・未強化", value: "88", detail: "左クリック3連（斬り→突き→払い）合計", sourceIds: ["user-training-1114"] },
+        { condition: "HP 500のタンク・デッドプールに対する実測値", label: "剣・通常強化", value: "102", detail: "左クリック3連（斬り→突き→払い）合計", sourceIds: ["user-training-1114"] },
+        { condition: "HP 500のタンク・デッドプールに対する実測値", label: "剣・2段階強化", value: "127", detail: "左クリック3連（斬り→突き→払い）合計", sourceIds: ["user-training-1114"] },
+        { condition: "HP 850のグルートに対する実測値", label: "剣・2段階強化", value: "137", detail: "左クリック3連（斬り→突き→払い）合計", sourceIds: ["user-training-1114"] }
       ],
       skills: [
         {

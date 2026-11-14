@@ -219,7 +219,7 @@
       ${hero.availability ? `<p class="availability">${esc(hero.availability)}</p>` : ""}
       ${hero.quickFacts?.length ? `<section class="facts-grid">${hero.quickFacts.map((fact) => `<div><span>${esc(fact.label)}</span><strong>${esc(fact.value)}</strong></div>`).join("")}</section>` : ""}
       ${patchNotes(changes)}
-      ${hasTests ? `<section class="content-block"><div class="block-heading row-heading"><h3>実測ダメージ</h3><span class="measurement-key">訓練所での実測</span></div>${hero.testNotes?.length ? `<div class="test-notes">${hero.testNotes.map((note) => `<p>${esc(note)}</p>`).join("")}</div>` : ""}<div class="test-grid">${hero.tests.map((test) => `<article class="test-card"><span>${esc(test.condition)}</span><strong>${esc(test.label)}</strong><b>${esc(test.value)} <small>ダメージ</small></b><p>${esc(test.detail)}</p></article>`).join("")}</div></section>` : ""}
+      ${hasTests ? `<section class="content-block"><div class="block-heading"><h3>実測ダメージ</h3></div><div class="test-grid">${hero.tests.map((test) => `<article class="test-card"><span>${esc(test.condition)}</span><strong>${esc(test.label)}</strong><b>${esc(test.value)} <small>ダメージ</small></b><p>${esc(test.detail)}</p></article>`).join("")}</div></section>` : ""}
       ${hero.skills?.length ? `<section class="content-block">
         <div class="block-heading">
           <h3 id="skills-title">キー操作・ダメージ・クールダウン</h3>

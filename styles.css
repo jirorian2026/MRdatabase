@@ -1,7 +1,8 @@
 :root { --bg:#090c12; --panel:#111722; --panel-2:#171f2c; --line:#263245; --text:#f4f7fb; --muted:#9eabbc; --blue:#7fb4ff; --red:#ff7169; --green:#75dfa5; --gold:#ffd36a; --accent:#e94f50; --font:ui-sans-serif,system-ui,-apple-system,"Segoe UI","Yu Gothic UI",Meiryo,sans-serif; }
 * { box-sizing:border-box; } html { scroll-behavior:smooth; } body { margin:0; background:radial-gradient(circle at 78% -8%,#293855 0,transparent 30rem),linear-gradient(155deg,#080b10 0%,#0c1119 55%,#090c12 100%); color:var(--text); font-family:var(--font); line-height:1.55; } button,input { font:inherit; } button { cursor:pointer; } .skip-link { position:fixed; left:1rem; top:-4rem; z-index:99; padding:.6rem .9rem; background:#fff; color:#000; border-radius:6px; } .skip-link:focus { top:1rem; }
 .shell { width:min(1240px,calc(100% - 40px)); margin:0 auto; padding:28px 0 44px; } .masthead { display:flex; justify-content:space-between; align-items:center; gap:24px; padding-bottom:28px; border-bottom:1px solid var(--line); } .brand { display:flex; align-items:center; gap:12px; color:inherit; text-align:left; background:none; border:0; padding:0; } .brand-mark { display:grid; place-items:center; width:40px; aspect-ratio:1; color:#111; background:var(--accent); font-size:22px; font-weight:900; clip-path:polygon(50% 0,94% 25%,94% 75%,50% 100%,6% 75%,6% 25%); } .brand p,.eyebrow { margin:0; color:var(--muted); font-size:11px; font-weight:800; letter-spacing:.14em; } .brand h1 { margin:1px 0 0; font-size:17px; letter-spacing:.09em; } .season-stamp { display:grid; grid-template-columns:auto auto; column-gap:10px; align-items:baseline; text-align:right; } .season-stamp span { grid-column:1/-1; color:var(--muted); font-size:10px; font-weight:800; letter-spacing:.16em; } .season-stamp strong { color:var(--gold); font-size:15px; } .season-stamp small { color:var(--muted); font-size:11px; }
-.directory { padding: 36px 0 26px; border-bottom: 1px solid var(--line); }
+.directory { padding: 82px 0 26px; border-bottom: 1px solid var(--line); }
+.visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 .directory-controls { display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; margin:22px 0 18px; }
 .patch-entry { display:inline-flex; align-items:center; justify-content:center; gap:10px; min-height:43px; padding:8px 14px; color:#17120a; background:var(--gold); border:2px solid var(--gold); border-radius:5px; font-size:15px; font-weight:800; line-height:1.3; text-decoration:none; }
 .patch-entry-arrow { display:grid; place-items:center; width:23px; height:23px; border-radius:50%; color:var(--gold); background:#34260d; font-size:17px; line-height:1; }
@@ -28,10 +29,9 @@
   .patch-identity h4 { margin:0 0 4px; }
   .patch-directory-heading h2 { font-size:25px; }
 }
-.section-heading,.row-heading { display:flex; justify-content:space-between; gap:20px; align-items:center; }
+.row-heading { display:flex; justify-content:space-between; gap:20px; align-items:center; }
 h2,h3 { margin:3px 0 0; letter-spacing:-.03em; }
-.section-heading h2 { font-size:30px; }
-.search { display:flex; align-items:center; gap:9px; min-width:225px; padding:9px 12px; background:var(--panel); border:1px solid var(--line); border-radius:6px; color:var(--muted); }
+.search { display:flex; align-items:center; gap:9px; width:225px; margin-left:auto; padding:9px 12px; background:var(--panel); border:1px solid var(--line); border-radius:6px; color:var(--muted); }
 .search input { width:100%; color:var(--text); background:transparent; border:0; outline:0; font-size:15px; }
 .search:focus-within { border-color:var(--gold); }
 .role-tabs { display:flex; flex-wrap:wrap; gap:8px; }
@@ -284,8 +284,9 @@ a.source-pill:hover { text-decoration:underline; }
   .masthead { align-items:start; gap:10px; }
   .season-stamp { display:none; }
   .brand h1 { font-size:14px; }
-  .section-heading,.row-heading { align-items:start; flex-direction:column; gap:10px; }
-  .search { width:100%; }
+  .row-heading { align-items:start; flex-direction:column; gap:10px; }
+  .directory { padding-top:30px; }
+  .search { width:100%; margin-left:0; }
   .directory { padding-top:24px; }
   .hero-grid { grid-template-columns:repeat(auto-fill,minmax(96px,1fr)); gap:9px; }
   .hero-card-body { padding-inline:5px; }

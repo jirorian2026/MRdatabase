@@ -114,7 +114,8 @@ footer { display:flex; justify-content:space-between; gap:16px; padding-top:24px
 footer span:last-child { white-space:nowrap; }
 .compact { padding-bottom:19px; }
 .brand { text-decoration:none; }
-.back-home:hover .brand-mark { background:#ff7778; }
+.brand-logo { display:block; width:110px; height:auto; flex:none; }
+.back-home:hover .brand-logo { opacity:.8; }
 .breadcrumb { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:22px 0 16px; color:var(--muted); font-size:14px; }
 .breadcrumb a { color:#d8e3f7; text-decoration:none; }
 .breadcrumb a:hover { text-decoration:underline; }
@@ -280,6 +281,7 @@ a.source-pill:hover { text-decoration:underline; }
   .teamup-list article > div:last-child { grid-column:2; }
 }
 @media (max-width:590px) {
+  .brand-logo { width:82px; }
   .shell { width:calc(100% - 24px); padding-top:16px; }
   .masthead { align-items:start; gap:10px; }
   .season-stamp { display:none; }

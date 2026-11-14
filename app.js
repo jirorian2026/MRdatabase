@@ -81,7 +81,7 @@
       .filter((hero) => portraitFor(hero)?.source);
     return `<main id="app" class="shell">
       <header class="masthead">
-        <div class="brand"><span class="brand-mark">R</span><div><p>${esc(data.site.subtitle)}</p><h1>${esc(data.site.title)}</h1></div></div>
+        <div class="brand"><img class="brand-logo" src="./marvel-rivals-logo.png" alt="MARVEL RIVALS"><h1>スキルデータベース</h1></div>
         <div class="season-stamp"><span>DATA SET</span><strong>${esc(data.site.season)}</strong><small>更新 ${esc(data.site.lastUpdated)}</small></div>
       </header>
       <section class="directory" aria-labelledby="directory-title">
@@ -98,6 +98,7 @@
         </div>
         <div id="hero-groups">${heroCards()}</div>
         ${portraitSources.length ? `<p class="portrait-credit">画像出典（Marvel Rivals公式）
+          <a href="https://www.marvelrivals.com/" target="_blank" rel="noreferrer">公式ロゴ ↗</a>
           ${portraitSources.map((hero) => `<a href="${esc(portraitFor(hero).source)}" target="_blank" rel="noreferrer">${esc(hero.name)} ↗</a>`).join("")}
         </p>` : ""}
       </section>
@@ -220,7 +221,7 @@
       </section>`;
     }).join("");
     return `<main id="app" class="shell profile-shell">
-      <header class="masthead compact"><a class="brand back-home" href="${esc(heroUrl().href)}" data-home aria-label="キャラクター一覧へ戻る"><span class="brand-mark">R</span><div><p>${esc(data.site.subtitle)}</p><h1>${esc(data.site.title)}</h1></div></a><div class="season-stamp"><span>DATA SET</span><strong>${esc(data.site.season)}</strong><small>更新 ${esc(data.site.lastUpdated)}</small></div></header>
+      <header class="masthead compact"><a class="brand back-home" href="${esc(heroUrl().href)}" data-home aria-label="キャラクター一覧へ戻る"><img class="brand-logo" src="./marvel-rivals-logo.png" alt=""><h1>スキルデータベース</h1></a><div class="season-stamp"><span>DATA SET</span><strong>${esc(data.site.season)}</strong><small>更新 ${esc(data.site.lastUpdated)}</small></div></header>
       <nav class="breadcrumb" aria-label="現在のページ"><a href="${esc(heroUrl().href)}" data-home>← キャラクター一覧</a><span>/</span><strong>シーズン11の調整一覧</strong></nav>
       <div class="patch-directory-heading"><h2 id="patch-directory-title">シーズン11の調整一覧</h2>${patchLegend()}</div>
       ${sections || '<p class="empty">調整内容はまだ登録されていません。</p>'}
@@ -253,7 +254,7 @@
     const heroLinks = sourceLinks(hero.sourceIds);
     const changes = patchGroups(hero);
     return `<main id="app" class="shell profile-shell">
-      <header class="masthead compact"><a class="brand back-home" href="${esc(heroUrl().href)}" data-home aria-label="キャラクター一覧へ戻る"><span class="brand-mark">R</span><div><p>${esc(data.site.subtitle)}</p><h1>${esc(data.site.title)}</h1></div></a><div class="season-stamp"><span>DATA SET</span><strong>${esc(data.site.season)}</strong><small>更新 ${esc(data.site.lastUpdated)}</small></div></header>
+      <header class="masthead compact"><a class="brand back-home" href="${esc(heroUrl().href)}" data-home aria-label="キャラクター一覧へ戻る"><img class="brand-logo" src="./marvel-rivals-logo.png" alt=""><h1>スキルデータベース</h1></a><div class="season-stamp"><span>DATA SET</span><strong>${esc(data.site.season)}</strong><small>更新 ${esc(data.site.lastUpdated)}</small></div></header>
       <nav class="breadcrumb" aria-label="現在のページ"><a href="${esc(heroUrl().href)}" data-home>← キャラクター一覧</a><span>/</span><span>${esc(role.label)}</span><span>/</span><strong>${esc(hero.title)}</strong></nav>
       <section class="profile-hero ${role.color}${heroLinks ? "" : " without-source-box"}">
         <div class="profile-portrait">${portraitMarkup(hero)}</div>

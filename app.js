@@ -248,6 +248,32 @@
       </div>
     </section>` : "";
 
+  const historyChangeText = (change) => {
+    const text = change.text;
+    const number = /\d[\d,]*(?:\.\d+)?(?:\s*(?:m\/秒|m|\/秒|%|秒))?/;
+    const ranges = [];
+    for (const match of text.matchAll(/→\s*([^、。；;]+)/g)) {
+      const value = number.exec(match[1]);
+      if (value) {
+        const start = match.index + match[0].indexOf(match[1]) + value.index;
+        ranges.push({ start, end: start + value[0].length });
+      }
+    }
+    if (!ranges.length) {
+      for (const match of text.matchAll(/\d[\d,]*(?:\.\d+)?(?:\s*(?:m\/秒|m|\/秒|%|秒))?|削除|廃止|追加|獲得/g)) {
+        ranges.push({ start: match.index, end: match.index + match[0].length });
+      }
+    }
+    let result = "";
+    let cursor = 0;
+    for (const { start, end } of ranges) {
+      result += esc(text.slice(cursor, start));
+      result += `<span class="history-${esc(change.kind)}">${esc(text.slice(start, end))}</span>`;
+      cursor = end;
+    }
+    return result + esc(text.slice(cursor));
+  };
+
   const balanceHistory = (hero) => {
     const records = window.MR_BALANCE_HISTORY?.[hero.id] || [];
     const seasons = [...new Set(records.map((record) => record.season))];
@@ -264,7 +290,7 @@
           <div class="history-patch-heading"><time datetime="${esc(record.date)}">${esc(record.date)}</time><a href="${esc(record.url)}" target="_blank" rel="noreferrer">公式パッチノート ↗</a></div>
           <ul>${record.changes.map((change) => `<li>
             <div class="history-skill">${change.key ? `<kbd>${esc(change.key)}</kbd> ` : ""}<strong>${esc(change.skill)}</strong></div>
-            <p class="history-${esc(change.kind)}"><span class="visually-hidden">${esc(labels[change.kind])} </span>${esc(change.text)}</p>
+            <p><span class="visually-hidden">${esc(labels[change.kind])} </span>${historyChangeText(change)}</p>
           </li>`).join("")}</ul>
         </article>`).join("")}
       </section>`).join("") : '<p class="history-empty">確認済みの調整履歴はまだ登録されていません。</p>'}
@@ -294,9 +320,9 @@
         </div>
         ${skillTable(hero)}
       </section>` : ""}
-      ${balanceHistory(hero)}
       ${teamupList(hero.teamups)}
       ${hasTests ? `<section class="content-block"><div class="block-heading"><h3>実測ダメージ</h3></div><div class="test-grid">${hero.tests.map((test) => `<article class="test-card"><span>${esc(test.condition)}</span><strong>${esc(test.label)}</strong><b>${esc(test.value)} <small>ダメージ</small></b><p>${esc(test.detail)}</p></article>`).join("")}</div></section>` : ""}
+      ${balanceHistory(hero)}
       ${sourceDirectory(hero)}
       ${footer()}
     </main>`;

@@ -161,6 +161,28 @@ footer span:last-child { white-space:nowrap; }
 .patch-summary > div { display:grid; grid-template-columns:minmax(160px,1fr) minmax(0,2fr); gap:5px 18px; }
 .patch-summary dt { font-weight:700; }
 .patch-summary dd,.patch-summary p { margin:0; }
+.history-legend { display:flex; flex-wrap:wrap; gap:6px 18px; font-weight:700; }
+.history-buff { color:#75dfa5; }
+.history-nerf { color:#ff8b83; }
+.history-new { color:#ffb35c; }
+.history-season { margin-top:14px; padding:17px 20px; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
+.history-season h4 { margin:0; color:var(--gold); font-size:19px; }
+.history-patch + .history-patch { margin-top:14px; padding-top:14px; border-top:1px solid var(--line); }
+.history-patch-heading { display:flex; flex-wrap:wrap; align-items:center; gap:6px 14px; margin:8px 0; font-size:14px; color:var(--muted); }
+.history-patch-heading a { color:#c1d6fd; font-weight:700; }
+.history-patch ul { display:grid; gap:8px; margin:0; padding:0; list-style:none; }
+.history-patch li { display:grid; grid-template-columns:minmax(190px,1fr) minmax(0,2fr); gap:5px 18px; font-size:16px; line-height:1.55; }
+.history-patch li p { margin:0; }
+.history-empty { color:var(--muted); font-size:15px; }
+@media (max-width:800px) {
+  .history-patch li { grid-template-columns:1fr; }
+  .history-season { padding:15px; }
+}
+@media print {
+  .history-buff { color:#15703c; }
+  .history-nerf { color:#ab231a; }
+  .history-new { color:#9a4f00; }
+}
 .test-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; } .test-card { display:flex; flex-direction:column; min-height:164px; padding:15px; background:linear-gradient(135deg,#121b27,#111722); border:1px solid var(--line); border-top:2px solid var(--green); border-radius:8px; } .test-card > span { color:var(--muted); font-size:12px; } .test-card strong { margin-top:8px; font-size:13px; } .test-card b { margin-top:4px; color:var(--green); font-size:28px; font-variant-numeric:tabular-nums; } .test-card b small { color:var(--muted); font-size:10px; font-weight:700; } .test-card p { flex:1; margin:4px 0 7px; color:var(--muted); font-size:10px; line-height:1.45; }
 .table-wrap { overflow:hidden; border:1px solid var(--line); border-radius:9px; background:var(--panel); }
 .skill-table { width:100%; border-collapse:collapse; font-size:16px; line-height:1.55; }

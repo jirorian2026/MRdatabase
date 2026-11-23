@@ -248,6 +248,29 @@
       </div>
     </section>` : "";
 
+  const balanceHistory = (hero) => {
+    const records = window.MR_BALANCE_HISTORY?.[hero.id] || [];
+    const seasons = [...new Set(records.map((record) => record.season))];
+    const labels = { buff: "強化", nerf: "弱体化・削除", new: "新規・仕様追加" };
+    return `<section class="content-block balance-history" aria-labelledby="history-title">
+      <div class="block-heading">
+        <h3 id="history-title">過去のバランス調整履歴</h3>
+        <p class="history-legend"><span class="history-buff">強化</span><span class="history-nerf">弱体化・削除</span><span class="history-new">新規・仕様追加</span></p>
+        <p>キーは現在のスキル表で確認できたものを表示しています。公式情報の確認日 2026-11-23</p>
+      </div>
+      ${seasons.length ? seasons.map((season) => `<section class="history-season">
+        <h4>${esc(season)}</h4>
+        ${records.filter((record) => record.season === season).map((record) => `<article class="history-patch">
+          <div class="history-patch-heading"><time datetime="${esc(record.date)}">${esc(record.date)}</time><a href="${esc(record.url)}" target="_blank" rel="noreferrer">公式パッチノート ↗</a></div>
+          <ul>${record.changes.map((change) => `<li>
+            <div class="history-skill">${change.key ? `<kbd>${esc(change.key)}</kbd> ` : ""}<strong>${esc(change.skill)}</strong></div>
+            <p class="history-${esc(change.kind)}"><span class="visually-hidden">${esc(labels[change.kind])} </span>${esc(change.text)}</p>
+          </li>`).join("")}</ul>
+        </article>`).join("")}
+      </section>`).join("") : '<p class="history-empty">確認済みの調整履歴はまだ登録されていません。</p>'}
+    </section>`;
+  };
+
   const profile = (hero) => {
     const role = data.roles[hero.role];
     const hasTests = hero.tests && hero.tests.length;
@@ -271,6 +294,7 @@
         </div>
         ${skillTable(hero)}
       </section>` : ""}
+      ${balanceHistory(hero)}
       ${teamupList(hero.teamups)}
       ${hasTests ? `<section class="content-block"><div class="block-heading"><h3>実測ダメージ</h3></div><div class="test-grid">${hero.tests.map((test) => `<article class="test-card"><span>${esc(test.condition)}</span><strong>${esc(test.label)}</strong><b>${esc(test.value)} <small>ダメージ</small></b><p>${esc(test.detail)}</p></article>`).join("")}</div></section>` : ""}
       ${sourceDirectory(hero)}
